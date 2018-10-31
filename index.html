@@ -1,0 +1,57 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <title>EASY LAYOUT</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+<body>
+
+    <header>
+        header
+    </header>
+
+
+    <nav>
+        nav
+    </nav>
+
+    
+    <div>
+        <section id="section"> section
+            
+            <article id="article">
+                article
+                
+                <p id="h123">h1, h2, h3</p>
+                <p id="p">p</p>
+                
+            </article>
+            
+            
+        </section>
+        
+        <aside>
+            aside
+        </aside>
+        
+    </div>
+    
+    <footer>
+        footer
+    </footer>
+
+</body>
+
+</html>
+
+<!-- for some reason the <footer> element would flow
+around the section/aside elements even though it's
+not a part of it. I tried to move it before and after the div,
+and it would be fine if it came right after <nav> but not
+after. Tested by keeping css consistent, only moving location
+of <footer> in html, so no conclusion as to why this happens.
+Temporary fix by giving element width in css. -->
