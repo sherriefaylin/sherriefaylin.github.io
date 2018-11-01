@@ -36,7 +36,6 @@ header {
     margin-right: 250px;
     background-color: gray;
     overflow: auto;
-    align-content: center
 }
 
 #pageTitle {
@@ -119,7 +118,33 @@ header {
         text-align: center;
     }
   
- 
+    input[type=text],
+    input[type=email] {
+        width: 97.5%;
+        padding: 10px;
+        /* margin: 20px, 10px; */
+        box-sizing: border-box;
+        margin: 10px;
+    }
 
+    textarea {
+        width: 97.5%;
+        padding: 10px;
+        /* margin: 20px, 10px; */
+        box-sizing: border-box;
+        margin: 10px;
+        height: 250px;
+        resize: none;
+    }
+
+    button {
+        background-color: white;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+
+ 
 
 
