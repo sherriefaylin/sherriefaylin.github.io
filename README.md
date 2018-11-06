@@ -1,2 +1,0 @@
-# sherriefaylin.github.io
-Portfolio
