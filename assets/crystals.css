@@ -1,0 +1,69 @@
+body {
+    
+    background-color: rgb(246, 197, 181);
+    color: white;
+}
+/* 
+.startbtn {
+    padding: 10px;
+    background-color: green;
+    color: white;
+} */
+
+.crystals {
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.eachcrystal {
+    margin: 25px;
+    padding: 10px;
+}
+
+/* #crystal1 {
+    background-image: url("../assets/images/lovegemlg.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+} */
+
+#crystal1:hover {
+    transform: translateY(-25px); 
+}
+
+#crystal2:hover {
+    transform: translateY(-25px); 
+}
+
+#crystal3:hover {
+    transform: translateY(-25px); 
+}
+
+#crystal4:hover {
+    transform: translateY(-25px); 
+}
+
+
+/* 
+#crystal1:active {
+    content: ("../assets/images/lovegemb.png");
+} */
+
+.stuff {
+    width: 220px;
+    color: white;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.501);
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 4px black solid;
+}
+
+.winlose {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+}
