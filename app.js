@@ -1,101 +1,69 @@
-var topics = ["eggs", "daily show", "snails", "cats", "bunnies"];
-var gifSearch;
+$("#upick").mouseover(function() {
+    $(".thumbnail").append("<p>UPICK Info</p>")
+})
 
-$(document).on("click", ".topic-button", function () {
-    $("#add-gif").on("click", function(event){
-        event.preventDefault();
-        gifSearch = $("#gif-input").val().trim();
-        $("#gif-input").val('');
-        topics.push(gifSearch);
-        console.log(gifSearch);
-    
-        renderButtons();
- 
+$("#upick").mouseout(function() {
+    $(".thumbnail").text("")
+})
 
-    var topic = $(this).attr("data-name");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=1wQx6yxcOuJcqqriBDVG9HTuZ8LdlhWi&limit=10";   
-    $.ajax({
-      url: queryURL,
-      method: "GET"
-    }).then(function(response) {
-     console.log(response);
+$("#spark").mouseover(function() {
+    $(".thumbnail").append("<p>spark Info</p>")
+})
 
-        var gifArray = response.data;
+$("#spark").mouseout(function() {
+    $(".thumbnail").text("")
+})
+
+$("#incarnate").mouseover(function() {
+    $(".thumbnail").append("<p>Incarnate Info</p>")
+})
+
+$("#incarnate").mouseout(function() {
+    $(".thumbnail").text("")
+})
+
+$("#doomsday").mouseover(function() {
+    $(".thumbnail").append("<p>DOOMSDAY Info</p>")
+})
+
+$("#doomsday").mouseout(function() {
+    $(".thumbnail").text("")
+})
+
+$("#child").mouseover(function() {
+    $(".thumbnail").append("<p>CHILD Info</p>")
+})
+
+$("#child").mouseout(function() {
+    $(".thumbnail").text("")
+})
+
+$("#laundry-room").mouseover(function() {
+    $(".thumbnail").append("<p>Laundry Room Info</p>")
+})
+
+$("#laundry-room").mouseout(function() {
+    $(".thumbnail").text("")
+})
+
+$("#instagram").mouseover(function() {
+    $(".thumbnail").append("<p>Instagram Info</p>")
+})
+
+$("#instagram").mouseout(function() {
+    $(".thumbnail").text("")
+})
 
 
-     for (var n = 0; n < gifArray.length; n++) {
-      var gifStill = $("<img>");
-      gifStill.attr('src', gifArray[n].images.fixed_height_still.url)
-      
-        $("#gif-stuff").prepend(gifStill);
+///RESUME
+var resumeInfoListItem
+var ccList = ["Adobe Illustrator", "Adobe Photoshop", "Adobe After Effects", "Adobe Lightroom", "Adobe InDesign", "Adobe Animate"]
+
+$(".creative-cloud").mouseover(function() {
+    for (var n = 0; n < ccList.length; n++) {
+    resumeInfoListItem = $("<li>")
+    resumeInfoListItem.addClass("res-info-list-item")
+    resumeInfoListItem.append(ccList[n])
+    $(".resume-info").append(resumeInfoList)
     }
-    });
-});
-});
-
-function renderButtons() {
-
-    $("#buttons-display").empty();
-    
-    for (var n = 0; n < topics.length; n++) {
-        var topicBtn = $("<button>");
-        topicBtn.addClass("topic-button");
-        topicBtn.attr("data-name", topics[n]);
-        topicBtn.text(topics[n]);
-        
-    $("#buttons-display").append(topicBtn);
-    };
-};
-
-$("#add-gif").on("click", function(event){
-    event.preventDefault();
-    gifSearch = $("#gif-input").val().trim();
-    $("#gif-input").val('');
-    topics.push(gifSearch);
-    console.log(gifSearch);
-
-    renderButtons();
-});
-
-
-renderButtons();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topics[n] + "&api_key=QN7whj9Ouv8HaB6fwHQsiQoVxKF5bYsA";
-
-
-// $.ajax({
-//     url: queryURL,
-//     method: "GET",
-// }).then(function (response){
-//     console.log(response);
-    // var gifArray = response.data;
-    // for (var n = 0; n < gifArray.lenth; n++) {
-    //     var gifImage = $("<img>");
-    //     gifImage.attr('src', gifArray[n].images.fixed_height.url);
-    //     $(".container").append(gifImage);
-    // }
-// });
-
-// })
-
-
-
-
-
+})
