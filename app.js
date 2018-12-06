@@ -51,27 +51,6 @@ $("#spark").mouseover(function () {
     $("body").css('background-image','url(assets/spark-bkgd10.png)');
 })
 
-// $("#spark").mouseout(function () {
-//     $("#port-float-box").css('background-color', '#FFFFFF')
-//     $(".thumb-title").css('color', '000000')
-// })
-
-
-
-// $("#incarnate").mouseover(function () {
-
-//     $(".thumbnail").empty();
-//     $(".thumbnail").append("<p>Incarnate</p>")
-//     subtitle = $("<p>")
-//     subtitle.addClass("subtitle")
-//     subtitle.text("Logo/Pamphlet")
-//     $(".thumbnail").append(subtitle)
-//     blurb = $("<img>")
-//     blurb.addClass("blurb")
-//     blurb.attr('src', 'assets/upickthumb.gif')
-//     $(".thumbnail").append(blurb)
-//     $(".thumbnail").append("<br>")
-// })
 
 
 
@@ -86,18 +65,13 @@ $("#doomsday").mouseover(function () {
     $(".thumbnail").append(subtitle)
     blurb = $("<img>")
     blurb.addClass("blurb")
-    blurb.attr('src', 'assets/upickthumb.gif')
+    blurb.attr('src', 'assets/doomsday.gif')
     $(".thumbnailgif").append(blurb)
     $(".thumbnail").append("<a href='doomsday.html'>SEE PROJECT</a>")
     $("body").css('background-image','url(assets/doomsday-bkgd10.png)');
 })
 
 
-
-// $("#doomsday").mouseout(function () {
-//     $("#port-float-box").css('background-color', '#FFFFFF')
-//     $(".thumb-title").css('color', '000000')
-// })
 
 
 $("#child").mouseover(function () {
@@ -111,7 +85,7 @@ $("#child").mouseover(function () {
     $(".thumbnail").append(subtitle)
     blurb = $("<img>")
     blurb.addClass("blurb")
-    blurb.attr('src', 'assets/upickthumb.gif')
+    blurb.attr('src', 'assets/child.gif')
     $(".thumbnailgif").append(blurb)
     $(".thumbnail").append("<a href='child.html'>SEE PROJECT</a>")
     $("body").css('background-image','url(assets/child-bkgd10.png)');
@@ -130,7 +104,7 @@ $("#laundry-room").mouseover(function () {
     $(".thumbnail").append(subtitle)
     blurb = $("<img>")
     blurb.addClass("blurb")
-    blurb.attr('src', 'assets/upickthumb.gif')
+    blurb.attr('src', 'assets/lr.gif')
     $(".thumbnailgif").append(blurb)
     $("body").css('background-image','url(assets/lr-bkgd10.png)');
     $(".thumbnail").append("<a href='lr.html'>SEE PROJECT</a>")
