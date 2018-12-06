@@ -133,7 +133,7 @@ $("#instagram").mouseover(function () {
 ///RESUME
 var resumeInfoListItem
 var ccList = ["Adobe Illustrator", "Adobe Photoshop", "Adobe After Effects", "Adobe Lightroom", "Adobe InDesign", "Adobe Animate"]
-var threeDList = ["Rhinocerous 3d", "Revit", "Autocad", "SketchUp", "Lasercutting"];
+var threeDList = ["Rhinocerous 3D", "Revit", "Autocad", "SketchUp", "Lasercutting"];
 var filmSoundList = ["Adobe After Effects", "Final Cut Pro X", "iMovie", "Audacity", "Midas Pro 6"];
 var codeList = ["HTML", "CSS", "Javascript", "jQuery", "moment.js", "node.js", "JSON", "npm", "Unity"]
 var prototypingList = ["Principle", "Sketch"];
@@ -227,23 +227,23 @@ $(".currently").mouseover(function () {
 ///EXPERIENCE AND EDUCATION
 
 $(".SAIC").mouseover(function () {
-    $(".exp-edu-info-list").html("<p>School of the Art Institute of Chicago</p><br><p>Bachelors of Fine Arts</p><br><p>Aug 2016-May2017</p><br><p>Visual Communication Design major</p><br><p>Architecture major</p><br><p>[Incomplete]</p>")
+    $(".exp-edu-info-list").html("<p class='school'>School of the Art Institute of Chicago</p><br><p class='date'>08/<br>2016-<br>05/<br>2017</p><br><p>Bachelors of Fine Arts [Incomplete]</p><br><p>Visual Communication Design major</p><br><p>Architecture major</p>")
 })
 
 // $(".SAIC").mouseout(function() {
 //     $(".exp-edu-info-list").html("");
 // })
+$(".Incarnate").mouseover(function () {
+    $(".exp-edu-info-list").html("<p class='school'>Incarnate School of the Arts</p><br><p class='date'>01/<br>2018-<br>06/<br>2018</p><br><p>Isola del Gran Sasso, Italy</p><br><p>Maio Li, Taiwan</p>")
+})
 
 $(".UCB").mouseover(function () {
-    $(".exp-edu-info-list").html("<p>Full Stack Coding Bootcamp</p><br><p>Oct 2018-Feb 2019</p>")
+    $(".exp-edu-info-list").html("<p class='school'>Full Stack Coding Bootcamp</p><br><p class='date'>10/<br>2018-<br>02/<br>2019</p>")
 })
 // $(".UCB").mouseout(function() {
 //     $(".exp-edu-info-list").html("");
 // })
 
-$(".Incarnate").mouseover(function () {
-    $(".exp-edu-info-list").html("<p>Incarnate School of the Arts</p><br><p>Isola del Gran Sasso, Italy</p><br><p>Maio Li, Taiwan</p><br><p>Jan 2018-Jun 2018</p>")
-})
 // $(".Incarnate").mouseout(function() {
 //     $(".exp-edu-info-list").html("");
 // })
