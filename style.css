@@ -24,7 +24,7 @@ body {
     text-align: center;
     border: 1px solid black;
     padding: 10px;
-    margin-bottom: 200px;
+
 }
 .navlink {
     color: white;
@@ -57,9 +57,29 @@ body {
     
 }
 
+#upick {
+    margin-top: 100px;
+}
+
+#spark {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#child {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#laundry-room {
+    margin-bottom: 20px;
+}
+
 .port-icon {
     text-align: center;
 }
+
+
 
 .nav {
     width: 300px;
@@ -68,8 +88,8 @@ body {
 #float-box {
     border: 1px solid black;
     position: fixed;
-    margin-left: 35%;
-    margin-top: 10%;
+    margin-left: 55%;
+    margin-top: 1%;
     z-index: 1;
     padding: 10px;
     width: 400px;
@@ -80,7 +100,7 @@ body {
 #float-box2 {
     border: 1px solid black;
     position: fixed;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 15%;
     z-index: 2;
     padding: 10px;
@@ -88,21 +108,30 @@ body {
     height: 350px;
 }
 
+.resume-info-list {
+    margin-left: 25%;
+}
+
+.experienceEducation {
+    margin-left: 5%;
+}
+
 #port-float-box {
     border: 1px solid black;
     position: fixed;
     margin-left: 60%;
-    margin-top: 15%;
+    margin-top: 18%;
     z-index: 2;
     padding: 10px;
     width: 300px;
     height: 400px;
+    background-color: rgba(255, 255, 255, 0.50);
 }
 
 #port-float-box-gif {
     position: fixed;
     margin-left: 10%;
-    margin-top: 50%;
+    margin-top: 10%;
     z-index: 1;
     padding: 10px;
     width: 100px;

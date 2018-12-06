@@ -23,6 +23,8 @@ $("#upick").mouseover(function () {
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/upickthumb.gif')
     $(".thumbnailgif").append(blurb)
+    $(".thumbnail").append("<a href='upick.html'>SEE PROJECT</a>")
+    $("body").css('background-image','url(assets/upick-bkgd10.png)');
 })
 
 // $("#upick").mouseout(function () {
@@ -33,19 +35,20 @@ $("#upick").mouseover(function () {
 
 
 $("#spark").mouseover(function () {
-
     $(".thumbnail").empty();
     $(".thumbnailgif").empty();
     $("#port-float-box").css('color', '#F6CAC9')
     $(".thumbnail").append("<p class='thumb-title'>spark</p>")
     subtitle = $("<p>")
     subtitle.addClass("subtitle")
-    subtitle.text("Love Assistant")
+    subtitle.text("PRODUCT DESIGN + PROTOTYPE")
     $(".thumbnail").append(subtitle)
     blurb = $("<img>")
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/spark.gif')
     $(".thumbnailgif").append(blurb)
+    $(".thumbnail").append("<a href='spark.html'>SEE PROJECT</a>")
+    $("body").css('background-image','url(assets/spark-bkgd10.png)');
 })
 
 // $("#spark").mouseout(function () {
@@ -85,6 +88,8 @@ $("#doomsday").mouseover(function () {
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/upickthumb.gif')
     $(".thumbnailgif").append(blurb)
+    $(".thumbnail").append("<a href='doomsday.html'>SEE PROJECT</a>")
+    $("body").css('background-image','url(assets/doomsday-bkgd10.png)');
 })
 
 
@@ -108,6 +113,8 @@ $("#child").mouseover(function () {
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/upickthumb.gif')
     $(".thumbnailgif").append(blurb)
+    $(".thumbnail").append("<a href='child.html'>SEE PROJECT</a>")
+    $("body").css('background-image','url(assets/child-bkgd10.png)');
 })
 
 
@@ -125,6 +132,8 @@ $("#laundry-room").mouseover(function () {
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/upickthumb.gif')
     $(".thumbnailgif").append(blurb)
+    $("body").css('background-image','url(assets/lr-bkgd10.png)');
+    $(".thumbnail").append("<a href='lr.html'>SEE PROJECT</a>")
 })
 
 
@@ -142,6 +151,7 @@ $("#instagram").mouseover(function () {
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/upickthumb.gif')
     $(".thumbnailgif").append(blurb)
+    $(".thumbnail").append("<a href='ig.html'>SEE PROJECT</a>")
 })
 
 
