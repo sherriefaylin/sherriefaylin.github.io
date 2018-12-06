@@ -65,6 +65,7 @@ var prototypingList= ["Principle", "Sketch"];
 var currentlyList= ["Unity", "C#", "node.js", "three.js"];
 
 $(".creative-cloud").mouseover(function() {
+    $(".resume-info-list").empty();
     for (var n = 0; n < ccList.length; n++) {
     resumeInfoListItem = $("<p>");
     resumeInfoListItem.addClass("res-info-list-item");
@@ -73,11 +74,12 @@ $(".creative-cloud").mouseover(function() {
     }
 })
 
-$(".creative-cloud").mouseout(function() {
-    $(".resume-info-list").text("");
-})
+// $(".creative-cloud").mouseout(function() {
+//     $(".resume-info-list").text("");
+// })
 
 $(".3d").mouseover(function() {
+    $(".resume-info-list").empty();
     for (var n = 0; n < threeDList.length; n++) {
     resumeInfoListItem = $("<p>");
     resumeInfoListItem.addClass("res-info-list-item");
@@ -86,11 +88,12 @@ $(".3d").mouseover(function() {
     }
 })
 
-$(".3d").mouseout(function() {
-    $(".resume-info-list").text("");
-})
+// $(".3d").mouseout(function() {
+//     $(".resume-info-list").text("");
+// })
 
 $(".filmSound").mouseover(function() {
+    $(".resume-info-list").empty();
     for (var n = 0; n < filmSoundList.length; n++) {
     resumeInfoListItem = $("<p>");
     resumeInfoListItem.addClass("res-info-list-item");
@@ -99,11 +102,12 @@ $(".filmSound").mouseover(function() {
     }
 })
 
-$(".filmSound").mouseout(function() {
-    $(".resume-info-list").text("");
-})
+// $(".filmSound").mouseout(function() {
+//     $(".resume-info-list").text("");
+// })
 
 $(".code").mouseover(function() {
+    $(".resume-info-list").empty();
     for (var n = 0; n < codeList.length; n++) {
     resumeInfoListItem = $("<p>");
     resumeInfoListItem.addClass("res-info-list-item");
@@ -112,11 +116,12 @@ $(".code").mouseover(function() {
     }
 })
 
-$(".code").mouseout(function() {
-    $(".resume-info-list").text("");
-})
+// $(".code").mouseout(function() {
+//     $(".resume-info-list").text("");
+// })
 
 $(".prototyping").mouseover(function() {
+    $(".resume-info-list").empty();
     for (var n = 0; n < prototypingList.length; n++) {
     resumeInfoListItem = $("<p>");
     resumeInfoListItem.addClass("res-info-list-item");
@@ -125,11 +130,12 @@ $(".prototyping").mouseover(function() {
     }
 })
 
-$(".prototyping").mouseout(function() {
-    $(".resume-info-list").text("");
-})
+// $(".prototyping").mouseout(function() {
+//     $(".resume-info-list").text("");
+// })
 
 $(".currently").mouseover(function() {
+    $(".resume-info-list").empty();
     for (var n = 0; n < currentlyList.length; n++) {
     resumeInfoListItem = $("<p>");
     resumeInfoListItem.addClass("res-info-list-item");
@@ -138,6 +144,32 @@ $(".currently").mouseover(function() {
     }
 })
 
-$(".currently").mouseout(function() {
-    $(".resume-info-list").text("");
+// $(".currently").mouseout(function() {
+//     $(".resume-info-list").text("");
+// })
+
+
+///EXPERIENCE AND EDUCATION
+
+$(".SAIC").mouseover(function() {
+   $(".exp-edu-info-list").html("<p>School of the Art Institute of Chicago</p><br><p>Bachelors of Fine Arts</p><br><p>Aug 2016-May2017</p><br><p>Visual Communication Design major</p><br><p>Architecture major</p><br><p>[Incomplete]</p>")
 })
+
+// $(".SAIC").mouseout(function() {
+//     $(".exp-edu-info-list").html("");
+// })
+
+$(".UCB").mouseover(function() {
+    $(".exp-edu-info-list").html("<p>Full Stack Coding Bootcamp</p><br><p>Oct 2018-Feb 2019</p>")
+})
+// $(".UCB").mouseout(function() {
+//     $(".exp-edu-info-list").html("");
+// })
+
+$(".Incarnate").mouseover(function() {
+    $(".exp-edu-info-list").html("<p>Incarnate School of the Arts</p><br><p>Isola del Gran Sasso, Italy</p><br><p>Maio Li, Taiwan</p><br><p>Jan 2018-Jun 2018</p>")
+})
+// $(".Incarnate").mouseout(function() {
+//     $(".exp-edu-info-list").html("");
+// })
+
