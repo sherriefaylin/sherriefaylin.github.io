@@ -17,8 +17,10 @@ $("#upick").mouseover(function () {
     subtitle.addClass("subtitle")
     subtitle.text("MULTIPLAYER RESTAURANT LOCATOR GAME")
     $(".thumbnail").append(subtitle)
-    $(".thumbnail").append("<p class='thumb-title2'><mark>TEAM</mark></p>")
-    $(".thumbnail").append("<p class='thumb-title2'>ROLE: Project Manager, UI/UX Designer</p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>Team</mark></p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>Role: Project Manager, UI/UX Designer</mark></p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>11/2018</mark></p>")
+    $(".thumbnail").append("<p class='descr'>Can't decide where to eat? u pick will pick a resturant for you, near you.</p>")
     blurb = $("<img>")
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/upickthumb.gif')
@@ -43,6 +45,9 @@ $("#spark").mouseover(function () {
     subtitle.addClass("subtitle")
     subtitle.text("PRODUCT DESIGN + PROTOTYPE")
     $(".thumbnail").append(subtitle)
+    $(".thumbnail").append("<p class='thumb-title2'><mark>Solo</mark></p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>10/2017</mark></p>")
+    $(".thumbnail").append("<p class='descr'>Spark tracks the strength of love between two hearts through daily events that either strengthen or weaken your love for one another in order to save your broken marriage, lost friendship, or faded familial relationship.</p>")
     blurb = $("<img>")
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/spark.gif')
@@ -63,6 +68,11 @@ $("#doomsday").mouseover(function () {
     subtitle.addClass("subtitle")
     subtitle.text("Multimedia Testimonial")
     $(".thumbnail").append(subtitle)
+    $(".thumbnail").append("<p class='thumb-title2'><mark>Solo [with assistance from South-African filmmaker Kotie-Alet Agenbag]</mark></p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>04/2018</mark></p>")
+    $(".thumbnail").append("<p class='descr'>DOOMSDAY is an art piece at the cross section between film, sound, spoken word, fine arts, design, and dance.</p>")
+    $(".thumbnail").append("<p class='descr'>Credits: Music from Bishop Briggs, Vancouver Sleep Clinic</p>")
+    $(".thumbnail").append("<p class='descr'>Credits: Some visuals from GIPHY</p>")
     blurb = $("<img>")
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/doomsday.gif')
@@ -83,6 +93,9 @@ $("#child").mouseover(function () {
     subtitle.addClass("subtitle")
     subtitle.text("Streetwear Clothing Line")
     $(".thumbnail").append(subtitle)
+    $(".thumbnail").append("<p class='thumb-title2'><mark>Solo</mark></p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>07/2017</mark></p>")
+    $(".thumbnail").append("<p class='descr'>Inspired by millenials in Christian communities across the world, CHILD is a streetwear that strives to translate their stories into minimally designed streetwear.</p>")
     blurb = $("<img>")
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/child.gif')
@@ -100,8 +113,11 @@ $("#laundry-room").mouseover(function () {
     $("#port-float-box").css('color', '#00A14B')
     subtitle = $("<p>")
     subtitle.addClass("subtitle")
-    subtitle.text("Design Tutoring App")
+    subtitle.text("Design Networking App [Prototype]")
     $(".thumbnail").append(subtitle)
+    $(".thumbnail").append("<p class='thumb-title2'><mark>Solo</mark></p>")
+    $(".thumbnail").append("<p class='thumb-title2'><mark>05/2017</mark></p>")
+    $(".thumbnail").append("<p class='descr'>Triggered by the gaping hole between design beginners and professionals, Laundry Room is intended to create a bridge between the two levels and build a new, virtual community for students and seasoned designers.</p>")
     blurb = $("<img>")
     blurb.addClass("blurb")
     blurb.attr('src', 'assets/lr.gif')
@@ -112,21 +128,21 @@ $("#laundry-room").mouseover(function () {
 
 
 
-$("#instagram").mouseover(function () {
+// $("#instagram").mouseover(function () {
 
-    $(".thumbnail").empty();
-    $(".thumbnailgif").empty();
-    $(".thumbnail").append("<p>Instagram Stories</p>")
-    subtitle = $("<p>")
-    subtitle.addClass("subtitle")
-    subtitle.text("Imperfect Experiemental")
-    $(".thumbnail").append(subtitle)
-    blurb = $("<img>")
-    blurb.addClass("blurb")
-    blurb.attr('src', 'assets/upickthumb.gif')
-    $(".thumbnailgif").append(blurb)
-    $(".thumbnail").append("<a href='ig.html'>SEE PROJECT</a>")
-})
+//     $(".thumbnail").empty();
+//     $(".thumbnailgif").empty();
+//     $(".thumbnail").append("<p>Instagram Stories</p>")
+//     subtitle = $("<p>")
+//     subtitle.addClass("subtitle")
+//     subtitle.text("Imperfect Experiemental")
+//     $(".thumbnail").append(subtitle)
+//     blurb = $("<img>")
+//     blurb.addClass("blurb")
+//     blurb.attr('src', 'assets/upickthumb.gif')
+//     $(".thumbnailgif").append(blurb)
+//     $(".thumbnail").append("<a href='ig.html'>SEE PROJECT</a>")
+// })
 
 
 
@@ -227,18 +243,18 @@ $(".currently").mouseover(function () {
 ///EXPERIENCE AND EDUCATION
 
 $(".SAIC").mouseover(function () {
-    $(".exp-edu-info-list").html("<p class='school'>School of the Art Institute of Chicago</p><br><p class='date'>08/<br>2016-<br>05/<br>2017</p><br><p>Bachelors of Fine Arts [Incomplete]</p><br><p>Visual Communication Design major</p><br><p>Architecture major</p>")
+    $(".exp-edu-info-list").html("<p class='school'>School of the Art Institute of Chicago</p><br><p class='date'>08/<br>2016-<br>05/<br>2017</p><br><p>Bachelors of Fine Arts [Incomplete]</p><p>Visual Communication Design major + </p><p>Architecture major</p>")
 })
 
 // $(".SAIC").mouseout(function() {
 //     $(".exp-edu-info-list").html("");
 // })
 $(".Incarnate").mouseover(function () {
-    $(".exp-edu-info-list").html("<p class='school'>Incarnate School of the Arts</p><br><p class='date'>01/<br>2018-<br>06/<br>2018</p><br><p>Isola del Gran Sasso, Italy</p><br><p>Maio Li, Taiwan</p>")
+    $(".exp-edu-info-list").html("<p class='school'>Incarnate School of the Arts</p><br><p class='date'>01/<br>2018-<br>06/<br>2018</p><br><p>Study Abroad: </p><p>Isola del Gran Sasso, Italy</p><p>Maio Li, Taiwan</p>")
 })
 
 $(".UCB").mouseover(function () {
-    $(".exp-edu-info-list").html("<p class='school'>Full Stack Coding Bootcamp</p><br><p class='date'>10/<br>2018-<br>02/<br>2019</p>")
+    $(".exp-edu-info-list").html("<p class='school'>Full Stack Coding Bootcamp</p><br><p class='date'>10/<br>2018-<br>02/<br>2019</p><br><p>Full-time</p><p>Full Stack Flex Program</p>")
 })
 // $(".UCB").mouseout(function() {
 //     $(".exp-edu-info-list").html("");

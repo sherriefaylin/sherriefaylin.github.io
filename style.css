@@ -61,6 +61,9 @@ body {
     margin-left:55%;
 }
 
+.story {
+    width:400px;
+}
 #upick {
     margin-top: 100px;
 }
@@ -170,16 +173,30 @@ body {
     margin-top: -10px;
    
 }
-
-.thumb-title2 {
-    font-weight: inherit;
-    font-size: 16px;
+.subtitle {
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 20px;
     margin-top: -10px;
 }
+
+.thumb-title2 {
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.descr {
+    font-size: 14px;
+    color: black;
+}
+
 
 .thumbnail {
     background-color: rgba(255, 255, 255, 0);
 }
+
+
 
 .blurb {
     width: 300px;
@@ -190,10 +207,6 @@ mark {
     background-color: yellow;
 }
 
-.subtitle {
-    font-size: 20px;
-
-}
 
 .school {
     font-weight: bold;
