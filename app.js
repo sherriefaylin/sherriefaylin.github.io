@@ -58,12 +58,86 @@ $("#instagram").mouseout(function() {
 ///RESUME
 var resumeInfoListItem
 var ccList = ["Adobe Illustrator", "Adobe Photoshop", "Adobe After Effects", "Adobe Lightroom", "Adobe InDesign", "Adobe Animate"]
+var threeDList= ["Rhinocerous 3d", "Revit", "Autocad", "SketchUp", "Lasercutting"];
+var filmSoundList= ["Adobe After Effects", "Final Cut Pro X", "iMovie", "Audacity", "Midas Pro 6"];
+var codeList= ["HTML", "CSS", "Javascript", "jQuery", "moment.js", "node.js", "JSON", "npm", "Unity"]
+var prototypingList= ["Principle", "Sketch"];
+var currentlyList= ["Unity", "C#", "node.js", "three.js"];
 
 $(".creative-cloud").mouseover(function() {
     for (var n = 0; n < ccList.length; n++) {
-    resumeInfoListItem = $("<li>")
-    resumeInfoListItem.addClass("res-info-list-item")
-    resumeInfoListItem.append(ccList[n])
-    $(".resume-info").append(resumeInfoList)
+    resumeInfoListItem = $("<p>");
+    resumeInfoListItem.addClass("res-info-list-item");
+    resumeInfoListItem.append(ccList[n]);
+    $(".resume-info-list").append(resumeInfoListItem);
     }
+})
+
+$(".creative-cloud").mouseout(function() {
+    $(".resume-info-list").text("");
+})
+
+$(".3d").mouseover(function() {
+    for (var n = 0; n < threeDList.length; n++) {
+    resumeInfoListItem = $("<p>");
+    resumeInfoListItem.addClass("res-info-list-item");
+    resumeInfoListItem.append(threeDList[n]);
+    $(".resume-info-list").append(resumeInfoListItem);
+    }
+})
+
+$(".3d").mouseout(function() {
+    $(".resume-info-list").text("");
+})
+
+$(".filmSound").mouseover(function() {
+    for (var n = 0; n < filmSoundList.length; n++) {
+    resumeInfoListItem = $("<p>");
+    resumeInfoListItem.addClass("res-info-list-item");
+    resumeInfoListItem.append(filmSoundList[n]);
+    $(".resume-info-list").append(resumeInfoListItem);
+    }
+})
+
+$(".filmSound").mouseout(function() {
+    $(".resume-info-list").text("");
+})
+
+$(".code").mouseover(function() {
+    for (var n = 0; n < codeList.length; n++) {
+    resumeInfoListItem = $("<p>");
+    resumeInfoListItem.addClass("res-info-list-item");
+    resumeInfoListItem.append(codeList[n]);
+    $(".resume-info-list").append(resumeInfoListItem);
+    }
+})
+
+$(".code").mouseout(function() {
+    $(".resume-info-list").text("");
+})
+
+$(".prototyping").mouseover(function() {
+    for (var n = 0; n < prototypingList.length; n++) {
+    resumeInfoListItem = $("<p>");
+    resumeInfoListItem.addClass("res-info-list-item");
+    resumeInfoListItem.append(prototypingList[n]);
+    $(".resume-info-list").append(resumeInfoListItem);
+    }
+})
+
+$(".prototyping").mouseout(function() {
+    $(".resume-info-list").text("");
+})
+
+$(".currently").mouseover(function() {
+    for (var n = 0; n < currentlyList.length; n++) {
+    resumeInfoListItem = $("<p>");
+    resumeInfoListItem.addClass("res-info-list-item");
+    resumeInfoListItem.append(currentlyList[n]);
+    $(".resume-info-list").append(resumeInfoListItem);
+    }
+})
+
+$(".currently").mouseout(function() {
+    $(".resume-info-list").text("");
 })
