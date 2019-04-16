@@ -1,0 +1,78 @@
+canvas { 
+    position: fixed !important;
+
+}
+
+.ugh-logo {
+    text-align: center;
+    margin-left: 120px;
+     margin-top: 50px;
+     position: fixed;
+  
+ }
+ 
+ #fix-logo {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 18px;
+     /* z-index:-5 */
+ }
+ 
+ #fix-gif, #reverse-gif {
+ 
+     width:150px;
+     /* z-index:-5; */
+ }
+ .logo-nav {
+    font-family: helvetica, sans-serif;
+    /* color: black; */
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+    transform: scale(1, 0.7);
+    text-align: center;
+    font-weight: 800;
+    /* transition: ease 1; */
+}
+
+.links {
+    color: black;
+}
+
+.links:hover {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.resume {
+    text-align: center;
+
+}
+
+#resume-png {
+    margin-top: 250px;
+}
+
+
+
+
+.page-title { 
+ font-family: helvetica, sans-serif;
+ font-size: 36px;
+
+ font-weight: 800;  
+ margin-top: 300px;
+
+ text-align: center;    
+ transform: scale(1, 0.7);
+}
+
+.uh-what {
+    color: rgba(255, 255, 255, 0);
+}

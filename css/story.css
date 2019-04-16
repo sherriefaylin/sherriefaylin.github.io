@@ -1,0 +1,73 @@
+canvas { 
+    position: fixed !important;
+
+}
+
+.ugh-logo {
+    text-align: center;
+    margin-left: 120px;
+     margin-top: 50px;
+     position: fixed;
+  
+ }
+ 
+ #fix-logo {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 18px;
+     /* z-index:-5 */
+ }
+ 
+ #fix-gif, #reverse-gif {
+ 
+     width:150px;
+     /* z-index:-5; */
+ }
+ .logo-nav {
+    font-family: helvetica, sans-serif;
+    /* color: black; */
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+    transform: scale(1, 0.7);
+    text-align: center;
+    font-weight: 800;
+    /* transition: ease 1; */
+}
+
+.links {
+    color: black;
+}
+
+.links:hover {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.cherry-valentine {
+
+    width: 800px;
+    margin-left: 50%;
+}
+
+#name {
+    font-size: 70px;
+    font-weight: 800;
+    font-family: helvetica, sans-serif;
+    transform: scale(1, 0.75);
+
+}
+
+.text-a {
+    text-align: center;
+    margin-top: 100px;
+}
