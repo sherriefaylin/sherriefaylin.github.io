@@ -22,10 +22,10 @@ function resetLogo() {
   if (!reset) {
     $("#reverse-gif").show();
     
-    setTimeout(function() {
+    // setTimeout(function() {
       $("#reverse-gif").hide();
       $("#fix-logo").show();
-    }, 1700)
+    // }, 1700)
   }
 }
 
@@ -36,9 +36,9 @@ function activateLogo() {
   $("#fix-logo").hide();
   $("#fix-gif").show();
 
-  setTimeout(function () {
+  // setTimeout(function () {
     $("#fix-gif").hide();
-  }, 1700)
+  // }, 1700)
 
   }
 }
@@ -108,13 +108,10 @@ $(".rubb-logo-box").mouseenter(function() {
   $(".hover-blurb").empty();
 
 
-  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/hover-wave-reveal-loop.gif'>");
-  setTimeout(function(){
-    $(".wave-reveal").hide();
-    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/scroll-sq-gif.gif' alt='untrending gif'>");
-  },480)
+  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/rubbish/sign-up_4.gif'>");
+  
 
-  $(".hover-blurb").append("<p class='blurb-one'>Re-filtering the news to encourage users to consume stories from multiple perspectives.</p> <p class='blurb-date'>JANUARY 2019</p> <p class='blurb-two'>FULL STACK NEWS FILTER APP</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
+  $(".hover-blurb").append("<p class='blurb-one'>Trash service for the travelers, the handicapped, the senior, and everyone else.</p> <p class='blurb-date'>FEBRUARY 2019</p> <p class='blurb-two'>FULL STACK SERVICE APP</p> <p class='blurb-three'>ROLE: Front-end Developer, UI/UX Designer</p>")
  
  
   $(".see-proj-box-b").show();
@@ -136,13 +133,13 @@ $(".upick-logo-box").mouseenter(function() {
   $(".hover-blurb").empty();
 
 
-  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/hover-wave-reveal-loop.gif'>");
-  setTimeout(function(){
-    $(".wave-reveal").hide();
-    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/scroll-sq-gif.gif' alt='untrending gif'>");
-  },480)
+  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/upick/UPICK-PRES-CHAT-.gif'>");
+  // setTimeout(function(){
+  //   $(".wave-reveal").hide();
+  //   $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/scroll-sq-gif.gif' alt='untrending gif'>");
+  // },480)
 
-  $(".hover-blurb").append("<p> placeholder </p>")
+  $(".hover-blurb").append("<p class='blurb-one'>We’ve all found ourselves stuck in this conversation too many times a day (especially those of us who indulge in second dinner). uPick is a multi-player game designed to pick for you!</p> <p class='blurb-date'>NOVEMBER 2018</p> <p class='blurb-two'>FRONT END APPLICATION+ FIREBASE</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
 
   $(".see-proj-box-c").show();
   $(".upick-logo").hide();

@@ -72,17 +72,12 @@ canvas {
 
 }
 
-.untrnd-logo-box {
-    /* margin-top: 300px; */
+.untrnd-logo-box, .upick-logo-box, .rubb-logo-box {
+    padding: 20px;
     border: 1px solid black;
 }
 
-.upick-logo-box {
-    border: 1px solid black;
-}
-.rubb-logo-box {
-    border: 1px solid black;
-}
+
 
 .see-proj-box-a,
 .see-proj-box-b,
