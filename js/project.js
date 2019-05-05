@@ -12,7 +12,10 @@ $(".logo-nav").hide();
 $(".wave-reveal").hide();
 $(".proj-teaser").hide();
 
-$(".see-proj-box").hide();
+$(".see-proj-box-a").hide();
+$(".see-proj-box-b").hide();
+$(".see-proj-box-c").hide();
+
 
 function resetLogo() {
  
@@ -68,6 +71,7 @@ $(".logo-nav").mouseleave(function() {
 
 
 
+/////////////////////////////////////////////////////////////////
 
 $(".untrnd-logo-box").mouseenter(function() {
   $(".untrnd-logo-box").css('border', '0px')
@@ -83,19 +87,49 @@ $(".untrnd-logo-box").mouseenter(function() {
 
   $(".hover-blurb").append("<p class='blurb-one'>Re-filtering the news to encourage users to consume stories from multiple perspectives.</p> <p class='blurb-date'>JANUARY 2019</p> <p class='blurb-two'>FULL STACK NEWS FILTER APP</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
 
-  $(".see-proj-box").show();
+  $(".see-proj-box-a").show();
   $(".untrnd-logo").hide();
 })
 
-$(".untrnd-logo-box").mouseleave(function(){
+$(".see-proj-box-a").mouseleave(function(){
 
   $(".untrnd-logo").show();
-  $(".see-proj-box").hide();
+  $(".see-proj-box-a").hide();
+})
+
+/////////////////////////////////////////////////////////////////
+
+$(".rubb-logo-box").mouseenter(function() {
+
+ 
+
+  $(".rubb-logo-box").css('border', '0px')
+  $(".hover-thumbnail").empty();
+  $(".hover-blurb").empty();
+
+
+  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/hover-wave-reveal-loop.gif'>");
+  setTimeout(function(){
+    $(".wave-reveal").hide();
+    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/scroll-sq-gif.gif' alt='untrending gif'>");
+  },480)
+
+  $(".hover-blurb").append("<p class='blurb-one'>Re-filtering the news to encourage users to consume stories from multiple perspectives.</p> <p class='blurb-date'>JANUARY 2019</p> <p class='blurb-two'>FULL STACK NEWS FILTER APP</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
+ 
+ 
+  $(".see-proj-box-b").show();
+  $(".rubb-logo").hide();
+})
+
+$(".see-proj-box-b").mouseleave(function(){
+
+  $(".rubb-logo").show();
+  $(".see-proj-box-b").hide();
 })
 
 
 
-
+/////////////////////////////////////////////////////////////////
 $(".upick-logo-box").mouseenter(function() {
   $(".upick-logo-box").css('border', '0px')
   $(".hover-thumbnail").empty();
@@ -110,14 +144,14 @@ $(".upick-logo-box").mouseenter(function() {
 
   $(".hover-blurb").append("<p> placeholder </p>")
 
-  $(".see-proj-box").show();
+  $(".see-proj-box-c").show();
   $(".upick-logo").hide();
 })
 
-$(".upick-logo-box").mouseleave(function(){
+$(".see-proj-box-c").mouseleave(function(){
 
   $(".upick-logo").show();
-  $(".see-proj-box").hide();
+  $(".see-proj-box-c").hide();
 })
 
 

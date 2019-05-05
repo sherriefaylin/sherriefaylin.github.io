@@ -55,11 +55,12 @@ canvas {
 
 .cherry-valentine {
 
-    width: 800px;
-    margin-left: 50%;
+    width: 50%;
+
 }
 
 #name {
+    margin-top: 300px;
     font-size: 70px;
     font-weight: 800;
     font-family: helvetica, sans-serif;

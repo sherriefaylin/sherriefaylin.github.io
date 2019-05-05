@@ -56,7 +56,9 @@ canvas {
 }
 
 #resume-png {
-    margin-top: 250px;
+
+    padding: 10px;
+    border: 1px solid black;
 }
 
 
@@ -75,4 +77,14 @@ canvas {
 
 .uh-what {
     color: rgba(255, 255, 255, 0);
+}
+
+.page-title-2 {
+    font-family: helvetica, sans-serif;
+    font-size: 36px;
+   
+    font-weight: 800;  
+
+    text-align: center;    
+    transform: scale(1, 0.7);
 }
