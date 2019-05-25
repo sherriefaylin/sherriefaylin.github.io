@@ -31,6 +31,12 @@
 
 <body>
 
+
+          
+<div class="fix-right">
+        <img src="assets/upick-logo-100.jpg" width="150px">
+    </div>
+
     <div class="container ugh-logo">
         <img src="assets/signaturelogo.png" width="146px" id="fix-logo">
         <img id="fix-gif" src="assets/retract-logo.gif">
@@ -52,13 +58,14 @@
 
     <div class="container proj-head" >
            <div class="header" id="myHeader">
-                <h1 class="proj-title">UPICK</h1>
+       
             </div>
 <!-- <h1 class="proj-title-test"></h1> -->
         <!-- <h1 class="proj-title">UPICK</h1> -->
 
         <div class="container">
             <div class="proj-blurb">
+                         <h1 class="proj-title">UPICK</h1>
                 <p class="abstract">Fresh to web development, we wanted to build an app that was unique and useful, that
                     encouraged us to dig deeper in foundational code, yet still gave us the freedom to be creative. So,
                     we decided to focus on a tiny daily problem and solve it. </p>
@@ -70,13 +77,17 @@
             </div>
         </div>
 
-    </div>
+    </div>  
+    
+    
+    
+    <div class=" container proj-description-upick"></div>
         <!-- <div class="row"> -->
         <!-- <div class="col-md-6"> -->
         <h2 class="subtitle">WALKTHROUGH </h2>
         <br><br><br>
         <div class="container walkthru-video">
-        <iframe id="upick-vimeo" src="https://player.vimeo.com/video/335299465" width="640" height="480" frameborder="0"
+        <iframe id="upick-vimeo" src="https://player.vimeo.com/video/335299465" width="500" height="480" frameborder="0"
             allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
         <!-- </div> -->
@@ -89,40 +100,48 @@
 
         <br>
 
+
+
+        <br>
+      
+
+
    <h2 class="subtitle">THE PSYCHOLOGY BEHIND UPICK: </h2>
         <div class="container bin-visuals">
             <img id="upick-chat" width="300px" src="assets/upickchat.gif" alt="upick-chat-gif">
         </div>
-
-
-        <br>
-        <div class=" container proj-description">
             <div class="p-text intro">
+                    <div class="text-box">
                 <p class="descr">We’ve all found ourselves stuck in this conversation too many times a day (especially
                     those of us who indulge in second dinner). uPick is a multi-player game designed to pick for you!
                 </p>
+                    </div>
             </div>
         </div>
 
         <div class="p-text psychology">
          
-            <p class="">uPick is specifically designed to take the indecisiveness out of decision making. While we were
+                <div class="text-box">uPick is specifically designed to take the indecisiveness out of decision making. While we were
                 brainstorming our approach to the issue of the never-ending conversation [fig. 1], we replayed the times
                 we’ve had the conversation IRL and reflected on why we all didn’t know where to eat. I then tried to
                 catch myself when I habitually responded “I don’t know,” observed my in-the-moment thoughts, and found
                 that my mind immediately flooded with an overwhelming amount of options, causing it to freeze like an
                 overheating hard drive.
-            </p>
+                </div>
         </div>
 
         <div class="p-text tech-proc">
             <h2 class="subtitle">SO HERE, WE BEGIN… </h2>
 
-
+            <div class="text-box">
 
             Technical Process
             The first layer of filtering down these options works behind the scenes- uPick is programmed to randomize a
             list of 10 different cuisines before the game starts.
+
+            </div>
+
+
             <h2 class="sub-subtitle">FLOW </h2>
         </div>
   
@@ -139,9 +158,9 @@
 
             <div class="p-text tech-proc">
 
-
+                    <div class="text-box">
             Meanwhile, up to 4 players enter the game via Google Firebase. Then, the list of 10 cuisines are revealed on
-            screen.
+            screen.</div>
         </div>
         <div class="container bin-visuals">
             <img id="player-box" width="400px" src="assets/upick/upick-players_3.gif" alt="players-gif">
@@ -153,18 +172,23 @@
 
         <div class="p-text the-game">
             <h2 class="subtitle">THE GAME</h2>
+
+            <div class="text-box">
             The game itself is straightforward. Each player takes turns to eliminate one cuisine from the list until
-            there is only one left.
+            there is only one left.</div>
 
             <h2 class="subtitle">THE PSYCHOLOGY BEHIND UPICK pt.2:</h2>
+
+            <div class="text-box">
             As I continued to agonize over the root cause of nobody knowing where to eat, I discovered that the answer
             was hidden in the conversation all along. We all don’t know where to eat; but, we all knew exactly where we
-            DID NOT want to eat.
+            DID NOT want to eat.</div>
         </div>
         <div class="container bin-visuals">
 
-            <img width="25 s0px" src="assets/upick/flagsagain.gif" alt="flag-btns-gif">
-       
+            <img width="250px" src="assets/upick/flagsagain.gif" alt="flag-btns-gif">
+            <br>
+            <br><br><br>    
             <!-- <img width="250px" src="assets/upick/back-go.gif" alt="back-go-btns-gif"> -->
             <img width="250px" src="assets/upick/go-still.png" alt="flag-btns-still"> 
             <br>
@@ -175,12 +199,12 @@
 
         <div class="p-text part-two">
 
-            <h2 class="subtitle">& YOUR DESTINATION WILL BE…</h2>
+            <h2 class="subtitle">& YOUR DESTINATION WILL BE…</h2><div class="text-box">
             Once the players confirm the winning cuisine, uPick works its magic by hitting the Google Places API. The
             players allow the app to use their location, then uPick returns a list of restaurants filtered according to
             winning cuisine in the form of a map on screen. From there, it’s just like Yelp. The players click around
             until they find a suitable restaurant; the game ends.
-            ends.
+            </div>
         </div>
 
         <!-- <div class="p-text epilogue">

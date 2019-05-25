@@ -206,6 +206,91 @@ $(".see-proj-box-c").mouseleave(function(){
 
 })
 
+$(document).ready(function () {
+  $('.fix-right').hide();
+})
+
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    // $('.ugh-logo').addClass('fix-logo')
+    $('.fix-right').show();
+    $('.proj-blurb').addClass('fix-left',1000, "ease")
+    $('.proj-title').css('font-size', '36px')
+    $('.abstract').css('font-size', '18px')
+    $('.timeline, .technology, .role').css('font-size', '12px')
+
+
+  }
+  else {
+    $('.fix-right').hide();
+    $(".proj-blurb").removeClass('fix-left', 1000, "ease")
+    $('.proj-title').css('font-size', '48px')
+    $('.abstract').css('font-size', '24px')
+    $('.timeline, .technology, .role').css('font-size', '18px')
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    $('.proj-description').css('margin-top', '850px')
+
+
+  }
+  else {
+    $('.proj-description').css('margin-top', '0px')
+
+  }
+});
+
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    $('.proj-description-bin').css('margin-top', '925px')
+
+
+  }
+  else {
+    $('.proj-description-bin').css('margin-top', '0px')
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    $('.proj-description-upick').css('margin-top', '955px')
+
+
+  }
+  else {
+    $('.proj-description-upick').css('margin-top', '0px')
+
+  }
+});
+
+
+
+// $(window).scroll(function() {
+//   if ($(window).scrollTop() > 1000) {
+//     $('iframe').addClass('fix-right')
+
+
+//   }
+//   else {
+//     $('iframe').removeClass('fix-right')
+
+
+//   }
+// });
+
+
+
+
+
 
 
 $(window).scroll(function() {
