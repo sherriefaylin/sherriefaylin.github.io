@@ -487,6 +487,27 @@ $(window).scroll(function() {
 });
 
 
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 1700) {
+    $("#s-er").addClass("squiggle-boom", 1000, "ease")
+  }
+  else {
+    $("#s-er").removeClass("squiggle-boom")
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 2100) {
+    $("#home-dial").addClass("highlight", 1000, "ease")
+  }
+  else {
+    $("#home-dial").removeClass("highlight")
+
+  }
+});
+
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 2000) {
@@ -499,6 +520,39 @@ $(window).scroll(function() {
 
   }
 });
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 2600) {
+    $("#s-t").addClass("squiggle-boom", 1000, "ease")
+  }
+  else {
+    $("#s-t").removeClass("squiggle-boom")
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 2700) {
+    $("#s-y").addClass("squiggle-boom", 1000, "ease")
+  }
+  else {
+    $("#s-y").removeClass("squiggle-boom")
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 3000) {
+    $(".set-one").addClass("highlight", 1000, "ease")
+  }
+  else {
+    $(".set-one").removeClass("highlight")
+
+  }
+});
+
+
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 2400) {
