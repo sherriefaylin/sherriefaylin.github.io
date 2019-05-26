@@ -1,7 +1,9 @@
 
 
 body {
-    background-color:whitesmoke;
+    /* background: color 248; */
+    background-color: rgb(242, 249, 243);
+
 }
 
 .container {
@@ -102,10 +104,16 @@ canvas {
 }
 
 .text-box {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+
+    border: 1px solid black;
+    background-color:white;
+
+    /* border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.13); */
 }
 
 
@@ -124,6 +132,42 @@ canvas {
 }
 
 
+
+
+.table-of-contents {
+    font-weight: 400;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    /* -webkit-text-stroke: 0.5px black; */
+/* color: white; */
+    transform: scale(1, 0.7);
+}
+
+.toc-boom {
+    font-size: 20px;
+    font-weight: 800;
+    color: cyan;
+}
+
+.toc-boom-b {
+    font-size: 20px;
+    font-weight: 800;
+    color: magenta;
+}
+
+.toc-boom-c {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 247, 0);
+}
+/* 
+.toc-boom-d {
+    font-size: 20px;
+    font-weight: 800;
+    color: cyan;
+} */
+
+
 mark {
     background-color: rgba(255, 255, 0, 0.699);
     padding-top: 0px;
@@ -133,7 +177,9 @@ mark {
 
 iframe {
     margin-top: -50px;
+
 }
+
 
 #flow-chart {
     width: 500px;
@@ -150,8 +196,11 @@ iframe {
     text-transform: uppercase; */
     /* color: #F04C23; */
     transition-duration: 1s;
-    -webkit-text-stroke: 0.75px black; 
+    /* -webkit-text-stroke: 0.75px black;  */
+    -webkit-text-stroke: 0.75px red; 
+
     color: white; 
+    /* color: red;  */
 }
 
 
@@ -206,6 +255,12 @@ iframe {
 }
 
 
+.indent {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
 
 .logo-nav {
     font-family: helvetica, sans-serif;
@@ -228,11 +283,18 @@ iframe {
     text-decoration: none;
 }
 
-
+.img-space {
+    margin-left: 15px;
+    margin-right: 17px;
+}
 
 .bin-visuals {
     text-align: center;
     padding: 20px;
+}
+
+#player-box {
+    border-radius: 5px;
 }
 
 .flow-charts {
@@ -274,7 +336,7 @@ iframe {
 
 .fix-left {
     position: fixed;
-    margin-top: -250px;
+    margin-top: -290px;
     margin-left: -70px;
     width: 300px;
     /* transition: ease; */
@@ -285,8 +347,8 @@ iframe {
 .fix-right {
     position: fixed;
     margin-left: 80%;
-    margin-top: 20%;
-
+    margin-top: 15%;
+    text-align: center;
 }
 
 

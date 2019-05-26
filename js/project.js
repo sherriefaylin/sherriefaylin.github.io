@@ -429,22 +429,138 @@ $(window).scroll(function() {
 
 
 
+/////////////////RUBBISH SCROLL///////////////////////////////////////
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    $("#toc-1").addClass("toc-boom", 1000, "ease")
+  }
+  else {
+    $("#toc-1").removeClass("toc-boom")
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 600) {
+    $("#s-q").addClass("squiggle-boom", 1000, "ease")
+  }
+  else {
+    $("#s-q").removeClass("squiggle-boom")
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 1000) {
+    $("#toc-1").removeClass("toc-boom")
+    $("#toc-2").addClass("toc-boom-b", 1000, "ease")
+  }
+  else {
+    $("#toc-2").removeClass("toc-boom-b")
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    $("#sign-up-block").addClass("highlight", 1000, "ease")
+  }
+  else {
+    $("#sign-up-block").removeClass("highlight")
+
+  }
+});
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 1500) {
+    $("#s-w").addClass("squiggle-boom", 1000, "ease")
+  }
+  else {
+    $("#s-w").removeClass("squiggle-boom")
+
+  }
+});
+
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 2000) {
+    $("#toc-2").removeClass("toc-boom-b")
+
+    $("#toc-3").addClass("toc-boom-c", 1000, "ease")
+  }
+  else {
+    $("#toc-3").removeClass("toc-boom-c")
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 2400) {
+    $("#toc-3").removeClass("toc-boom-c")
+
+    $("#toc-4").addClass("toc-boom", 1000, "ease")
+  }
+  else {
+    $("#toc-4").removeClass("toc-boom")
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 3000) {
+    $("#toc-4").removeClass("toc-boom")
+
+    $("#toc-5").addClass("toc-boom-b", 1000, "ease")
+  }
+  else {
+    $("#toc-5").removeClass("toc-boom-b")
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 3550) {
+    $("#toc-5").removeClass("toc-boom-b")
+
+    $("#toc-6").addClass("toc-boom-c", 1000, "ease")
+  }
+  else {
+    $("#toc-6").removeClass("toc-boom-c")
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 4300) {
+    $("#toc-6").removeClass("toc-boom-c")
+
+    $("#toc-7").addClass("toc-boom", 1000, "ease")
+  }
+  else {
+    $("#toc-7").removeClass("toc-boom")
+
+  }
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 5050) {
+    $("#toc-7").removeClass("toc-boom")
+
+    $("#toc-8").addClass("toc-boom-b", 1000, "ease")
+  }
+  else {
+    $("#toc-8").removeClass("toc-boom-b")
+
+  }
+});
 
 
 
 
 
-
-
-// window.onscroll = function() {myFunction()};
-
-// var header = $("#myHeader");
-// var sticky = header.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// }

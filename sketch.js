@@ -10,7 +10,7 @@ function setup() {
 
   function draw() {
     
-    background(248);
+    background("#F2F9F3");
 
         strokeWeight(8);
         stroke('black'); 

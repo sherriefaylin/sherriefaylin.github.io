@@ -1,4 +1,9 @@
 
+body {
+    /* background: color 248; */
+    background-color: rgb(242, 249, 243);
+}
+
 canvas { 
     position: fixed !important;
 
