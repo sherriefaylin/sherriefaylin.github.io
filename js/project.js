@@ -434,6 +434,7 @@ $(window).scroll(function() {
 $(window).scroll(function() {
   if ($(window).scrollTop() > 800) {
     $("#toc-1").addClass("toc-boom", 1000, "ease")
+    
   }
   else {
     $("#toc-1").removeClass("toc-boom")
