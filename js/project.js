@@ -17,6 +17,10 @@ $(".see-proj-box-b").hide();
 $(".see-proj-box-c").hide();
 
 
+$(".untrnd-logo-box").css('border', '0px');
+$(".rubb-logo-box").css('border', '0px');
+$(".upick-logo-box").css('border', '0px');
+
 function resetLogo() {
  
   if (!reset) {
@@ -61,29 +65,20 @@ $(window).scroll(function() {
 });
 
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 50) {
-    $('.page-title').addClass('titleboom',1000, "ease")
-    console.log("titleboom")
-    $('.page-head').addClass('headboom', 1000, "ease")
+// $(window).scroll(function() {
+//   if ($(window).scrollTop() > 50) {
+//     $('.page-title').addClass('titleboom',1000, "ease")
+//     console.log("titleboom")
+//     $('.page-head').addClass('headboom', 1000, "ease")
 
-  }
-  else {
-    $(".page-title").removeClass('titleboom', 1000, "ease")
-    $('.page-head').removeClass('headboom', 1000, "ease")
+//   }
+//   else {
+//     $(".page-title").removeClass('titleboom', 1000, "ease")
+//     $('.page-head').removeClass('headboom', 1000, "ease")
 
-  }
-});
-
-// var elementPosition = $('.page-title').offset();
-
-// $(window).scroll(function(){
-//   if($(window).scrollTop() > elementPosition.top){
-//         $('.page-title').css('position','fixed').css('top','0');
-//   } else {
-//       $('.page-title').css('position','static');
-//   }    
+//   }
 // });
+
 
 
 
@@ -184,7 +179,7 @@ $(".upick-logo-box").mouseenter(function() {
   $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/upick/chat-wave-reveal.gif'>");
   setTimeout(function(){
     $(".wave-reveal").hide();
-    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/upickchat.gif' alt='untrending gif'>");
+    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/upick/upickchatclear.gif'>");
   },460)
 
   $(".hover-blurb").append("<p class='p-title'>uPICK</p><p class='blurb-one'>We’ve all found ourselves stuck in this conversation too many times a day (especially those of us who indulge in second dinner). uPick is a multi-player game designed to pick for you!</p> <p class='blurb-date'>NOVEMBER 2018</p> <p class='blurb-two'>FRONT END APPLICATION+ FIREBASE</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
@@ -619,3 +614,57 @@ $(window).scroll(function() {
 
 
 
+
+
+// // // // // // // // // INDEX PAGE TITLE// // // // 
+
+$(document).ready(function() {
+
+  $("#title-p").hide();
+  $("#title-r").hide();
+  $("#title-o").hide();
+  $("#title-j").hide();
+  $("#title-e").hide();
+  $("#title-c").hide();
+  $("#title-t").hide();
+  $("#title-s").hide();
+
+})
+
+
+function titleLetters() {
+  setTimeout(function() {
+    $("#title-p").show();
+  }, 250)
+
+  setTimeout(function() {
+    $("#title-r").show();
+  }, 500)
+
+  setTimeout(function() {
+    $("#title-o").show();
+  }, 750)
+
+  setTimeout(function() {
+    $("#title-j").show();
+  }, 1000)
+
+  setTimeout(function() {
+    $("#title-e").show();
+  }, 1250)
+
+  setTimeout(function() {
+    $("#title-c").show();
+  }, 1500)
+
+  setTimeout(function() {
+    $("#title-t").show();
+  }, 1750)
+
+  setTimeout(function() {
+    $("#title-s").show();
+  }, 2000)
+
+};
+
+titleLetters();

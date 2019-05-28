@@ -186,13 +186,6 @@ padding-top:120px;
     transform: scale(1, 0.7);
 }
 
-.page-title { 
-    font-family: helvetica, sans-serif;
-    font-size: 36px;
-    font-weight: 800;
-    transition: all 0.2s ease-in-out;
-
-}
 
 .uh-what {
     color: rgba(255, 255, 255, 0);
@@ -216,4 +209,67 @@ padding-top:120px;
     opacity: 0.25;
     transition: all 0.1s ease-in-out;
 
+}
+
+
+.page-title { 
+    font-family: helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+-webkit-text-stroke: 1px  black
+}
+
+#title-p, #title-e {
+        /* text-shadow: -2px 2px orangered; */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+}
+
+#title-s, #title-c {
+        /* text-shadow: -2px 2px magenta; */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+
+}
+
+#title-o, #title-t {
+        /* text-shadow: -2px 2px cyan; */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+
+}
+#title-j, #title-r {
+        /* text-shadow: -2px 2px rgb(255, 225, 0); */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+
+}
+
+
+#title-p:hover, #title-e:hover {
+    /* text-shadow: -2px 2px orangered; */
+    /* transform: translateY(10px) */
+     color: orangered
+}
+
+#title-s:hover, #title-c:hover {
+    /* text-shadow: -2px 2px magenta; */
+    /* transform: translateY(5px) */
+color:cyan
+}
+
+#title-o:hover, #title-t:hover {
+    /* text-shadow: -2px 2px cyan; */
+    /* transform: translateY(15px) */
+color: magenta
+}
+#title-j:hover, #title-r:hover {
+    /* text-shadow: -2px 2px rgb(255, 225, 0); */
+    /* transform: translateY(18px) */
+    color: yellow
 }
