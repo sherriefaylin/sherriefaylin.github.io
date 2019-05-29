@@ -31,6 +31,9 @@ body {
 }
 
 
+.untrnd-visuals {
+    text-align: center;
+}
 
 .flow-pic {
   
@@ -56,6 +59,11 @@ canvas {
 /* .proj-title-test {
     margin-top: 525px;
     
+} */
+
+/* .blurb-logo {
+    margin-top: 355px;
+
 } */
 .proj-title {
     font-size: 48px;
@@ -182,7 +190,7 @@ iframe {
 
 
 #flow-chart {
-    width: 500px;
+    width: 400px;
     margin-bottom: 50px;
     margin-top: 25px;   
 }
