@@ -4,14 +4,7 @@ body {
 
 }
 
-.container {
 
-}
-
-/* .proj-description {
-    width: 600px;
-
-} */
 
 .proj-head {
     text-align: center;
@@ -80,14 +73,8 @@ canvas {
     font-family: garamond-premier-pro-subhead, serif;
     font-weight: 400;
     transition: ease;
-    /* transition-duration: 1s; */
 
-    /* border: 1px solid black;
-    border-top-color:  white; */
-
-
-    /* border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px; */
+    background-image: url("/assets/portfolio-blobs-white.gif");
 }
 
 .abstract {
@@ -318,8 +305,6 @@ iframe {
     transition-duration: 1s;
     transform: scale(1.1)
 
-    /* box-shadow: 0px 0px  25px rgba(255, 128, 25, 0.726); */
-    /* background-image: url("assets/portfolio-blobs_2"); */
   }
 
 
