@@ -1,3 +1,8 @@
+
+
+// //////////////////////
+// ////////  LOGO  //////////////
+// //////////////////////
 var executed;
 var reset ;
 $(document).ready(function () {
@@ -8,6 +13,7 @@ $("#fix-gif").hide();
 $("#reverse-gif").hide();
 $(".logo-nav").hide();
 
+// ////////  PROJECTS NAV  //////////////
 
 $(".wave-reveal").hide();
 $(".proj-teaser").hide();
@@ -20,6 +26,7 @@ $(".see-proj-box-c").hide();
 $(".untrnd-logo-box").css('border', '0px');
 $(".rubb-logo-box").css('border', '0px');
 $(".upick-logo-box").css('border', '0px');
+// //////////////////////// //////////////////////
 
 function resetLogo() {
  
@@ -92,8 +99,10 @@ $(".logo-nav").mouseleave(function() {
 
 
 
-/////////////////////////////////////////////////////////////////
 
+// //////////////////////
+// ////////  PROJECT--UNTRENDING  //////////////
+// //////////////////////
 $(".untrnd-logo-box").mouseenter(function() {
 
   $(".rubb-logo").addClass('fade-logo');
@@ -124,7 +133,10 @@ $(".see-proj-box-a").mouseleave(function(){
   $(".see-proj-box-a").hide();
 })
 
-/////////////////////////////////////////////////////////////////
+
+// //////////////////////
+// ////////  PROJECT--RUBBISH  //////////////
+// //////////////////////
 
 $(".rubb-logo-box").mouseenter(function() {
   $(".untrnd-logo").addClass('fade-logo');
@@ -136,11 +148,11 @@ $(".rubb-logo-box").mouseenter(function() {
   $(".hover-blurb").empty();
 
 
-  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/bin-hover-reveal.gif'>");
-  setTimeout(function(){
-    $(".wave-reveal").hide();
-    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/rubbish/everything.gif' alt='untrending gif'>");
-  },460)
+  // $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/bin-hover-reveal.gif'>");
+  // setTimeout(function(){
+    // $(".wave-reveal").hide();
+    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/rubbish/home-dial_6.gif'>");
+  // },460)
   
 
   $(".hover-blurb").append("<p class='p-title'>RUBBISH</p><p class='blurb-one'>Trash service for the travelers, the handicapped, the senior, and everyone else.</p> <p class='blurb-date'>FEBRUARY 2019</p> <p class='blurb-two'>FULL STACK SERVICE APP</p> <p class='blurb-three'>ROLE: Front-end Developer, UI/UX Designer</p>")
@@ -161,7 +173,10 @@ $(".see-proj-box-b").mouseleave(function(){
 
 
 
-/////////////////////////////////////////////////////////////////
+
+// //////////////////////
+// ////////  PROJECT--UPICK  //////////////
+// //////////////////////
 $(".upick-logo-box").mouseenter(function() {
 
   $(".rubb-logo").addClass('fade-logo');
@@ -176,11 +191,11 @@ $(".upick-logo-box").mouseenter(function() {
 
 
 
-  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/upick/chat-wave-reveal.gif'>");
-  setTimeout(function(){
+  // $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/upick/chat-wave-reveal.gif'>");
+  // setTimeout(function(){
     $(".wave-reveal").hide();
     $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/upick/upickchatclear.gif'>");
-  },460)
+  // },460)
 
   $(".hover-blurb").append("<p class='p-title'>uPICK</p><p class='blurb-one'>We’ve all found ourselves stuck in this conversation too many times a day (especially those of us who indulge in second dinner). uPick is a multi-player game designed to pick for you!</p> <p class='blurb-date'>NOVEMBER 2018</p> <p class='blurb-two'>FRONT END APPLICATION+ FIREBASE</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
 
@@ -201,11 +216,20 @@ $(".see-proj-box-c").mouseleave(function(){
 
 })
 
+
+
+// //////////////////////
+// //////// RIGHT FIXED DIV (SUBTITLES TABLE OF CONTENTS) //////////////
+// //////////////////////
+
 $(document).ready(function () {
   $('.fix-right').hide();
 })
 
 
+// //////////////////////
+// //////// FIX LEFT //////////////
+// //////////////////////
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 800) {
@@ -227,7 +251,9 @@ $(window).scroll(function() {
 
   }
 });
-
+// ////////////////////// ////////////////////// //////////////////////
+// ////////////////////// scroll past project blurb, move to blurb to left, then move back //////////////////////
+// ////////////////////// ////////////////////// //////////////////////
 $(window).scroll(function() {
   if ($(window).scrollTop() > 800) {
     $('.proj-description').css('margin-top', '850px')
@@ -266,21 +292,8 @@ $(window).scroll(function() {
 
   }
 });
-
-
-
-// $(window).scroll(function() {
-//   if ($(window).scrollTop() > 1000) {
-//     $('iframe').addClass('fix-right')
-
-
-//   }
-//   else {
-//     $('iframe').removeClass('fix-right')
-
-
-//   }
-// });
+// ////////////////////// ////////////////////// //////////////////////
+// ////////////////////// ////////////////////// //////////////////////
 
 
 
@@ -288,6 +301,9 @@ $(window).scroll(function() {
 
 
 
+// ////////////////////// ////////////////////// //////////////////////
+// ////////////////////// upick scroll //////////////////////
+// ////////////////////// ////////////////////// //////////////////////
 $(window).scroll(function() {
   if ($(window).scrollTop() > 700) {
     $("#upick-vimeo").addClass("highlight", 1000, "ease")
@@ -423,9 +439,9 @@ $(window).scroll(function() {
 });
 
 
-
+////////////////////////////////////////////////////////////////////////////
 /////////////////RUBBISH SCROLL///////////////////////////////////////
-
+////////////////////////////////////////////////////////////////////////////
 $(window).scroll(function() {
   if ($(window).scrollTop() > 800) {
     $("#toc-1").addClass("toc-boom", 1000, "ease")
@@ -615,9 +631,9 @@ $(window).scroll(function() {
 
 
 
-
-// // // // // // // // // INDEX PAGE TITLE// // // // 
-
+// // // // // // // // //// // // // // // // // //// // // // // // // // //
+// // // // // // // // // INDEX PAGE TITLE (projects) // // // // 
+// // // // // // // // //// // // // // // // // //// // // // // // // // //
 $(document).ready(function() {
 
   $("#title-p").hide();

@@ -66,26 +66,92 @@ canvas {
 
 
 .page-title { 
- font-family: helvetica, sans-serif;
- font-size: 36px;
 
- font-weight: 800;  
  margin-top: 300px;
 
  text-align: center;    
  transform: scale(1, 0.7);
+
+
+ font-family: helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+-webkit-text-stroke: 1px  black
 }
 
 .uh-what {
     color: rgba(255, 255, 255, 0);
 }
 
-.page-title-2 {
-    font-family: helvetica, sans-serif;
-    font-size: 36px;
-   
-    font-weight: 800;  
 
-    text-align: center;    
-    transform: scale(1, 0.7);
+
+
+
+
+
+
+
+
+
+
+
+#title-r, #title-e {
+        /* text-shadow: -2px 2px orangered; */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
 }
+
+#title-s, #title-u {
+        /* text-shadow: -2px 2px magenta; */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+
+}
+
+#title-m {
+        /* text-shadow: -2px 2px cyan; */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+
+}
+#title-e {
+        /* text-shadow: -2px 2px rgb(255, 225, 0); */
+    margin-left: -8px;
+    margin-right: -8px;
+    transition: ease
+
+}
+
+
+#title-r:hover, #title-e:hover {
+    /* text-shadow: -2px 2px orangered; */
+    /* transform: translateY(10px) */
+     color: orangered
+}
+
+#title-s:hover, #title-u:hover {
+    /* text-shadow: -2px 2px magenta; */
+    /* transform: translateY(5px) */
+color:cyan
+}
+
+#title-m:hover {
+    /* text-shadow: -2px 2px cyan; */
+    /* transform: translateY(15px) */
+color: magenta
+}
+#title-e:hover{
+    /* text-shadow: -2px 2px rgb(255, 225, 0); */
+    /* transform: translateY(18px) */
+    color: yellow
+}
+
+.uh-what {
+    color: rgba(255, 255, 255, 0);
+}
+
+

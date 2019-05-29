@@ -1,22 +1,24 @@
+// // // // // // // // // // // // // // // // // // // // // 
+// LOGO 
+// // // // // // // // // // // // // // // // // // // // // 
+
+
 var executed;
 var reset ;
 $(document).ready(function () {
+
+  //  //  //  //  //  // NAME 
     $("#name-a").hide()
     $("#name-b").hide()
     $("#name-c").hide()
-
+  //  //  //  //  //  //
 
 $("#fix-gif").hide();
 $("#reverse-gif").hide();
 $(".logo-nav").hide();
 
 
-$(".wave-reveal").hide();
-$(".proj-teaser").hide();
 
-$(".see-proj-box-a").hide();
-$(".see-proj-box-b").hide();
-$(".see-proj-box-c").hide();
 
 
 function resetLogo() {
@@ -65,6 +67,12 @@ $(window).scroll(function() {
 
 
 
+// // // // // // // // // // // // // // // // // // // // // 
+// PAGE TITLE
+// // // // // // // // // // // // // // // // // // // // // 
+
+
+
 function name() {
   
       setTimeout(function() {
@@ -81,3 +89,4 @@ function name() {
     
     }
   name();
+
