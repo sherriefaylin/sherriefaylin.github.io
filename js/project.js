@@ -113,11 +113,11 @@ $(".untrnd-logo-box").mouseenter(function() {
   $(".hover-blurb").empty();
 
 
-  $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/hover-wave-reveal-loop.gif'>");
-  setTimeout(function(){
-    $(".wave-reveal").hide();
+  // $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/hover-wave-reveal-loop.gif'>");
+  // setTimeout(function(){
+  //   $(".wave-reveal").hide();
     $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/scroll-sq-gif.gif' alt='untrending gif'>");
-  },460)
+  // },460)
 
   $(".hover-blurb").append("<p class='p-title'>UNTRENDING</p><p class='blurb-one'>Re-filtering the news to encourage users to consume stories from multiple perspectives.</p> <p class='blurb-date'>JANUARY 2019</p> <p class='blurb-two'>FULL STACK NEWS FILTER APP</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
 
