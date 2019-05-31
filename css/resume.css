@@ -262,6 +262,7 @@ color: magenta
 
     .contact {
         margin-left: 5px;
+        margin-top: -350px;
     }
 
 
@@ -276,13 +277,48 @@ color: magenta
         width: 365px;
     }
 
+    .contact {
+        margin-top: -350px;
+
+        margin-left: 5px;
+    }
   }
   
   /* Medium devices (ipad 1) */
   @media only screen and (min-width: 768px) {
     #resume-png {
-        width: 755px;
+        width: 700px;
     }
+
+    .contact {
+        margin-top: -350px;
+
+        margin-left: 5px;
+    }
+
+
   } 
+
+  /* large */
+  @media only screen and (min-width: 992px) {
+  
+    .contact {
+        margin-top: inherit;
+        margin-left: 200px;
+    }
+
+  } 
+
+
+/* xl */
+  @media only screen and (min-width: 1200px) {
+
+    .contact {
+
+        margin-top: inherit;
+        margin-left: 50px;    }
+
+  }
+  
   
  

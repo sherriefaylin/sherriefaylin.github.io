@@ -99,6 +99,7 @@ $(".logo-nav").mouseleave(function() {
 
 
 
+function indexMediaQuery() {
 
 // //////////////////////
 // ////////  PROJECT--UNTRENDING  //////////////
@@ -213,14 +214,50 @@ $(".see-proj-box-c").mouseleave(function(){
 })
 
 
+}
+
+if ($(window).width() >= 768){	
+  indexMediaQuery();
+}
+
+// if ($(window).width() >= 992){	
+//   indexMediaQuery();
+// }
 
 })
 
+// //////////////////////
+// //////// MEDIA QUERY //////////////
+// //////////////////////
+
+// $(window).resize(function(){
+// 	if ($(window).width() <= 800){	
+   
+   
+//     $(window).scroll(function() {
+//       if ($(window).scrollTop() > 800) {
+//         $('.fix-right').show();
+//         $('.proj-blurb').hide();
+ 
+    
+    
+//       }
+//       else {
+//         $('.fix-right').hide();
+//         $(".proj-blurb").show();
+    
+    
+//       }
+//     });
+// 	}	
+// });
 
 
 // //////////////////////
 // //////// RIGHT FIXED DIV (SUBTITLES TABLE OF CONTENTS) //////////////
 // //////////////////////
+
+
 
 $(document).ready(function () {
   $('.fix-right').hide();
@@ -230,12 +267,14 @@ $(document).ready(function () {
 // //////////////////////
 // //////// FIX LEFT //////////////
 // //////////////////////
+function mediaquery() {
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 800) {
     // $('.ugh-logo').addClass('fix-logo')
     $('.fix-right').show();
     $('.proj-blurb').addClass('fix-left',1000, "ease")
+    $('.proj-blurb').css('width','250px', "ease")
     $('.proj-title').css('font-size', '36px')
     $('.abstract').css('font-size', '18px')
     $('.timeline, .technology, .role').css('font-size', '12px')
@@ -244,6 +283,8 @@ $(window).scroll(function() {
   }
   else {
     $('.fix-right').hide();
+    $('.proj-blurb').css('width','500px', "ease")
+
     $(".proj-blurb").removeClass('fix-left')
     $('.proj-title').css('font-size', '48px')
     $('.abstract').css('font-size', '24px')
@@ -292,6 +333,43 @@ $(window).scroll(function() {
 
   }
 });
+
+}
+
+
+
+
+// function mediaquery2() {
+
+//   $(window).scroll(function() {
+//     if ($(window).scrollTop() > 800) {
+//       // $('.ugh-logo').addClass('fix-logo')
+//       $('.fix-right').show();
+      
+  
+  
+//     }
+//     else {
+//       $('.fix-right').hide();
+    
+//     }
+//   });
+ 
+  
+//   }
+  
+
+
+if ($(window).width() >= 992){	
+  mediaquery();
+}
+
+
+// if ($(window).width() >= 768){	
+//   mediaquery2();
+// }
+
+
 // ////////////////////// ////////////////////// //////////////////////
 // ////////////////////// ////////////////////// //////////////////////
 
