@@ -1,23 +1,15 @@
-// // // // // // // // // // // // // // // // // // // // // 
-// LOGO 
-// // // // // // // // // // // // // // // // // // // // // 
-
-
+// //////////////////////
+// ////////  LOGO  //////////////
+// //////////////////////
 var executed;
 var reset ;
 $(document).ready(function () {
 
-  //  //  //  //  //  // NAME 
-    $("#name-a").hide()
-    $("#name-b").hide()
-    $("#name-c").hide()
-  //  //  //  //  //  //
+
 
 $("#fix-gif").hide();
 $("#reverse-gif").hide();
 $(".logo-nav").hide();
-
-
 
 
 
@@ -63,9 +55,21 @@ $(window).scroll(function() {
       console.log("boom")
   }
 });
+
+
+
+
+
+
+$("#fix-logo").mouseenter(function (){
+  $(".logo-nav").fadeIn();
+})
+
+$(".logo-nav").mouseleave(function() {
+  $(".logo-nav").hide();
+})
+
 });
-
-
 
 // // // // // // // // // // // // // // // // // // // // // 
 // PAGE TITLE

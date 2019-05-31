@@ -1,3 +1,9 @@
+
+
+body {
+    background-color: rgb(242, 249, 243);
+}
+
 canvas { 
     position: fixed !important;
 
@@ -51,6 +57,7 @@ canvas {
 
 
 .photo-a {
+  
     text-align: center;
 }
 
@@ -62,7 +69,7 @@ canvas {
 }
 
 #name-a,#name-b,#name-c{
-    position: fixed;    
+    /* position: fixed;     */
     font-size: 100px;
     font-family: helvetica, sans-serif;
     transform: scale(1, 0.7);
@@ -73,20 +80,50 @@ canvas {
 
 }
 
-#name-a {
-    margin-top: 300px;
+/* span {
+    transform: scale(1, 0.7);
+} */
+
+/* #name-a {
+    
     color: cyan;
 }
 
 #name-b {
+  
     color: magenta  ;
 }
 
 #name-c {
+
     color: yellow;
-}
+} */
+
+
 
 .text-a {
+    margin-top: 300px;
+
     text-align: center;
-    margin-top: 100px;
+color: cyan;
+font-size: 85.5px;
+font-family: helvetica, sans-serif;
+transform: scale(1, 0.7);
+text-align: center;
+font-weight: 800;
+-webkit-text-stroke: 1px black;
 }
+
+
+.about-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.texttext {
+    font-family: europa, sans-serif;
+    font-size: 16px;
+}
+
+

@@ -1,4 +1,7 @@
+body {
+    background-color: rgb(242, 249, 243);
 
+}
 .uh-what {
     color: rgba(255, 255, 255, 0);
 }
@@ -52,7 +55,19 @@ canvas {
 
 
 
+.contact-1 {
 
+
+ text-align: center;    
+ transform: scale(1, 0.7);
+
+
+ font-family: helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: cyan;
+
+}
 
 
 
@@ -85,6 +100,18 @@ canvas {
 -webkit-text-stroke: 1px  black
 }
 
+.page-title-2 {
+    text-align: center;    
+    transform: scale(1, 0.7);
+   
+   
+    font-family: helvetica, sans-serif;
+       font-size: 60px;
+       font-weight: 800;
+       color: white;
+   -webkit-text-stroke: 1px  black
+}
+
 
 .resume {
    padding: 50px;
@@ -111,6 +138,7 @@ canvas {
 
 input {
     font-family: Helvetica, sans-serif;
+    border-radius: 5px;
 
     border: 1px solid black;
     margin: 10px;   
@@ -118,6 +146,8 @@ input {
 }
 
 textarea {
+    border-radius: 5px;
+
     font-family: Helvetica, sans-serif;
 
     border: 1px solid black;
@@ -130,7 +160,7 @@ textarea {
 
 
 .send-btn {
-
+    border-radius: 5px;
     font-family: Helvetica, sans-serif;
     font-size: 12px;
     color: black;
@@ -142,11 +172,20 @@ textarea {
 }
 
 .send-btn:hover {
-    background-color: white;
+    background-color: cyan;
 }
 
+#note {
+ 
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
 
-
+.note {
+    width: 300px;
+    margin-left: 11px;
+}
 
 
 
@@ -209,3 +248,41 @@ color: magenta
 }
 
 
+
+/* Extra small devices (iphone) */
+@media only screen and (max-width: 320px) {
+ 
+    /* body {
+        width: 320px;
+    } */
+
+    #resume-png {
+        width: 310px;
+    }
+
+    .contact {
+        margin-left: 5px;
+    }
+
+
+  }
+  
+
+
+
+  /* Small devices (iphone x) */
+  @media only screen and (min-width: 375px) {
+     #resume-png {
+        width: 365px;
+    }
+
+  }
+  
+  /* Medium devices (ipad 1) */
+  @media only screen and (min-width: 768px) {
+    #resume-png {
+        width: 755px;
+    }
+  } 
+  
+ 
