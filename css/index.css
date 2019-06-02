@@ -118,7 +118,13 @@ padding-top:120px;
 
 }
 
+.mq-1 {
 
+}
+
+.mq-2 {
+    
+}
 
 
 
@@ -293,10 +299,26 @@ color: magenta
 
 /* Extra small devices (iphone) */
 @media only screen and (max-width: 320px) {
+    /* .proj-teaser, .wave-reveal {
+        width: 101.25px
+    }
+
+    .hover-blurb {
+        width: 93.75px;
+        margin-left: -10px;
+    }
+
  
 
+      .see-proj {
+        font-size: 18px;
+      } */
 
-  }
+  } 
+
+
+
+
   
 
 
@@ -304,6 +326,7 @@ color: magenta
   /* Small devices (iphone x) */
   @media only screen and (min-width: 375px) {
     
+
   }
   
   /* Medium devices (ipad 1) */

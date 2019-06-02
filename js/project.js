@@ -15,6 +15,9 @@ $(".logo-nav").hide();
 
 // ////////  PROJECTS NAV  //////////////
 
+$(".mq-1").hide();
+$(".mq-2").hide();
+
 $(".wave-reveal").hide();
 $(".proj-teaser").hide();
 
@@ -145,9 +148,120 @@ $(".rubb-logo-box").mouseenter(function() {
  
 
   $(".rubb-logo-box").css('border', '0px')
+  // $(".hover-thumbnail").empty();
+  // $(".hover-blurb").empty();
+
+
+ 
+    $(".rubb-logo-box").prepend(" <img class='proj-teaser' src='assets/rubbish/home-dial_6.gif'>");
+  
+  
+
+  $(".rubb-logo-box").append("<p class='p-title'>RUBBISH</p><p class='blurb-one'>Trash service for the travelers, the handicapped, the senior, and everyone else.</p> <p class='blurb-date'>FEBRUARY 2019</p> <p class='blurb-two'>FULL STACK SERVICE APP</p> <p class='blurb-three'>ROLE: Front-end Developer, UI/UX Designer</p>")
+ 
+ 
+  $(".see-proj-box-b").show();
+  $(".rubb-logo").hide();
+})
+
+$(".see-proj-box-b").mouseleave(function(){
+  $(".untrnd-logo").removeClass('fade-logo');
+  $(".upick-logo").removeClass('fade-logo');
+ 
+  $(".rubb-logo").show();
+  $(".see-proj-box-b").hide();
+})
+
+
+
+
+
+// //////////////////////
+// ////////  PROJECT--UPICK  //////////////
+// //////////////////////
+$(".upick-logo-box").mouseenter(function() {
+
+  $(".rubb-logo").addClass('fade-logo');
+  $(".untrnd-logo").addClass('fade-logo');
+ 
+
+  $(".upick-logo-box").css('border', '0px')
   $(".hover-thumbnail").empty();
   $(".hover-blurb").empty();
 
+
+
+
+
+  // $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/upick/chat-wave-reveal.gif'>");
+  // setTimeout(function(){
+    $(".wave-reveal").hide();
+    $(".hover-thumbnail").append(" <img class='proj-teaser' src='assets/upick/upickchatclear.gif'>");
+  // },460)
+
+  $(".hover-blurb").append("<p class='p-title'>uPICK</p><p class='blurb-one'>We’ve all found ourselves stuck in this conversation too many times a day (especially those of us who indulge in second dinner). uPick is a multi-player game designed to pick for you!</p> <p class='blurb-date'>NOVEMBER 2018</p> <p class='blurb-two'>FRONT END APPLICATION+ FIREBASE</p> <p class='blurb-three'>ROLE: Project Manager, Front-end Developer, UI/UX Designer</p>")
+
+  $(".see-proj-box-c").show();
+  $(".upick-logo").hide();
+})
+
+$(".see-proj-box-c").mouseleave(function(){
+
+  $(".rubb-logo").removeClass('fade-logo');
+  $(".untrnd-logo").removeClass('fade-logo');
+
+  $(".upick-logo").show();
+  $(".see-proj-box-c").hide();
+})
+
+
+}
+
+function indexMediaQuery2() {
+  // //////////////////////
+// ////////  PROJECT--UNTRENDING  //////////////
+// //////////////////////
+$(".untrnd-logo-box").mouseenter(function() {
+
+  $(".rubb-logo").addClass('fade-logo');
+  $(".upick-logo").addClass('fade-logo');
+
+  $(".untrnd-logo-box").css('border', '0px')
+
+$(".mq-1").show();
+$(".mq-2").show();
+
+
+
+
+  $(".see-proj-box-a").show();
+  $(".untrnd-logo").hide();
+})
+
+
+$(".see-proj-box-a").mouseleave(function(){
+  $(".rubb-logo").removeClass('fade-logo');
+  $(".upick-logo").removeClass('fade-logo');
+
+  $(".untrnd-logo").show();
+  $(".see-proj-box-a").hide();
+})
+
+
+// //////////////////////
+// ////////  PROJECT--RUBBISH  //////////////
+// //////////////////////
+
+$(".rubb-logo-box").mouseenter(function() {
+  $(".untrnd-logo").addClass('fade-logo');
+  $(".upick-logo").addClass('fade-logo');
+ 
+
+  $(".rubb-logo-box").css('border', '0px')
+  $(".hover-thumbnail").empty();
+  $(".hover-blurb").empty();
+
+  
 
   // $(".hover-thumbnail").append("<img class='wave-reveal' src='assets/bin-hover-reveal.gif'>");
   // setTimeout(function(){
@@ -216,41 +330,32 @@ $(".see-proj-box-c").mouseleave(function(){
 
 }
 
+
+
+
+
 if ($(window).width() >= 768){	
   indexMediaQuery();
 }
 
-// if ($(window).width() >= 992){	
-//   indexMediaQuery();
-// }
+if ($(window).width() <=768){	
+  indexMediaQuery2();
+}
 
 })
 
-// //////////////////////
-// //////// MEDIA QUERY //////////////
-// //////////////////////
 
-// $(window).resize(function(){
-// 	if ($(window).width() <= 800){	
-   
-   
-//     $(window).scroll(function() {
-//       if ($(window).scrollTop() > 800) {
-//         $('.fix-right').show();
-//         $('.proj-blurb').hide();
- 
-    
-    
-//       }
-//       else {
-//         $('.fix-right').hide();
-//         $(".proj-blurb").show();
-    
-    
-//       }
-//     });
-// 	}	
-// });
+
+
+
+
+
+
+
+
+
+
+
 
 
 // //////////////////////
