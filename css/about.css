@@ -112,7 +112,7 @@ transform: scale(1, 0.7);
 text-align: center;
 font-weight: 800;
 -webkit-text-stroke: 1px black;
-text-shadow: black 0px 5px
+/* text-shadow: black 0px 5px */
 }
 
 
@@ -124,7 +124,9 @@ text-shadow: black 0px 5px
 
 .texttext {
     font-family: europa, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
+
+
 
 
