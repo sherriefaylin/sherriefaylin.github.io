@@ -5,6 +5,55 @@ body {
 }
 
 
+#fix-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    /* z-index:-5 */
+}
+
+#fix-gif, #reverse-gif {
+
+    width:150px;
+    /* z-index:-5; */
+}
+
+.logo-nav {
+    font-family: helvetica, sans-serif;
+    
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+    transform: scale(1, 0.7);
+    text-align: center;
+    font-weight: 800;
+
+    margin-top: 20px; 
+
+}
+
+.links {
+    color: black;
+}
+
+.links:hover {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+}
+.ugh-logo {
+    height: 150px;
+    text-align: center;
+    
+     position: fixed;
+
+     position: absolute;
+     left: 50%;
+     top: 10%;
+     transform: translate(-50%, -50%)
+  
+ }
+
+
 
 .proj-head {
     text-align: center;
@@ -47,15 +96,6 @@ canvas {
 }
 
 
-/* .proj-title-test {
-    margin-top: 525px;
-    
-} */
-
-/* .blurb-logo {
-    margin-top: 355px;
-
-} */
 .proj-title {
     font-size: 48px;
     margin-top: 525px;
@@ -211,20 +251,7 @@ iframe {
     margin-bottom: 40px;
 }
 
-.ugh-logo {
-   text-align: center;
-   margin-left: 120px;
-    margin-top: 50px;
-    position: fixed;
- 
-}
 
-#fix-logo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 18px;
-    /* z-index:-5 */
-}
 
 #fix-gif, #reverse-gif {
 
@@ -232,11 +259,6 @@ iframe {
     /* z-index:-5; */
 }
 
-.equation {
-    /* border: 1px solid black; */
-    /* padding: 10px; */
-
-}
 
 .sub-subtitle {
     text-transform: uppercase;
@@ -254,26 +276,8 @@ iframe {
 }
 
 
-.logo-nav {
-    font-family: helvetica, sans-serif;
-    /* color: black; */
-    font-size: 20px;
-    font-family: helvetica, sans-serif;
-    transform: scale(1, 0.7);
-    text-align: center;
-    font-weight: 800;
-    /* transition: ease 1; */
-}
 
-.links {
-    color: black;
-}
 
-.links:hover {
-    color: #ffffff;
-    -webkit-text-stroke: 1px black;
-    text-decoration: none;
-}
 
 .img-space {
     margin-left: 15px;
@@ -308,7 +312,7 @@ iframe {
 
 
   #thought {
-    font-style:     italic;
+    font-style: italic;
     transition-duration: 0.5s;
   }
 
@@ -348,330 +352,4 @@ iframe {
 
 }   
 
-/* .fix-logo {
-    position: fixed;
-} */
-
-
-
-
-  /* Small devices (iphone 5) */
-
-@media only screen and (max-width: 320px) {
-    .proj-blurb {
-        width: 315px;
-    }
- 
-    .p-text {
-     width: 315px;
-    }
- 
- 
-    #upick-chat,
-    .flow-pic,
-    #player-box,
-    .set-10,
-    .set-11 {
-        width: 250px;
-       
-    }
- 
-
-  #untrnd-s-a,
-  #spectrum-gif,
-  #figure-eye,
-  #pers-block,
-  #flow-chart {
-        width: 250px;
-       
-    }
-
-
-    #sign-up-block,
-    #home-dial
   
- {
-        width: 250px;
-    }
-
-    .set-one,
-    .set-2,
-    #prof-pic {
-        width: 175px;
-    }
-
-
-    #upick-vimeo,
-    #untrnd-vimeo {
-        width: 320px
-    }
- 
-    .upick-mq {
-        text-align: center;
-        width: 320px;
-         
-    }
- 
-    .img-space {
-        margin-top: 75px;
-    }
- 
-   
-
-  }
-  
-
-  /* Small devices (iphone x) */
-  @media only screen and (min-width: 375px) {
-    .proj-blurb {
-       width: 365px;
-   }
-
-   .p-text {
-    width: 365px;
-   }
-
-
-   #upick-chat,
-   .flow-pic,
-   #player-box,
-   .set-10,
-   .set-11 {
-       width: 300px;
-      
-   }
-
-
-   #untrnd-s-a,
-   #spectrum-gif,
-   #figure-eye,
-   #pers-block,
-   #flow-chart {
-         width: 300px;
-        
-     }
-
-   #upick-vimeo,
-   #untrnd-vimeo {
-       width: 375px
-   }
-
-   .upick-mq {
-       text-align: center;
-       width: 375px;
-        
-   }
-
-   .img-space {
-       margin-top: 100px;
-   }
-
-   #sign-up-block,
-   #home-dial
- 
-{
-       width: 350px;
-   }
-
-   .set-one,
-   .set-2,
-   #prof-pic {
-       width: 250px;
-   }
-
-  
-   
-   
-
-
-   }
-
- 
- 
- /* Medium devices (ipad 1) */
- @media only screen and (min-width: 768px) {
-   .proj-blurb {
-    width: 500px;  
- }
-
-   .p-text {
-    width: 500px;
-   }
-
-   .flow-pic {
-       width: 500px;
-   }
-
-
-   #upick-chat {
-       width: 300px;
-   }
-
-   #player-box,
-   .set-10,
-   .set-11 {
-       width: 200px;
-      
-   }
-
-   #untrnd-s-a,
-   #spectrum-gif,
-   #figure-eye,
-   #pers-block,
-   #flow-chart {
-         width: 500px;
-        
-     }
-
-   #upick-vimeo,
-   #untrnd-vimeo {
-       width: 500px;
-   }
-
-   .upick-mq {
-       text-align: center;
-       width: initial;
-        
-   }
-
-   .img-space {
-       margin-top: initial;
-   }
-
-
-
-   #sign-up-block,
-   #home-dial
- 
-{
-       width: 350px;
-   }
-
-   .set-one,
-   .set-2,
-   #prof-pic {
-       width: 200px;
-   }
-
-  
-  
-   
-
-
- 
-
-
- } 
-
- /* large */
- @media only screen and (min-width: 992px) {
-   .proj-blurb {
-       width: 500px;
-   }
-
-   .p-text {
-    width: 500px;
-   }
-
-   .flow-pic {
-       width: 500px;
-   }
-
-
-   #upick-chat {
-       width: 300px;
-   }
-
-   #player-box,
-   .set-10,
-   .set-11 {
-       width: 200px;
-      
-   }
-
-   #untrnd-s-a,
-   #spectrum-gif,
-   #figure-eye,
-   #pers-block,
-   #flow-chart {
-         width: 500px;
-        
-     }
-
-   #upick-vimeo,
-   #untrnd-vimeo {
-       width: 500px;
-   }
-
-   .upick-mq {
-       text-align: center;
-       width: initial;
-        
-   }
-
-   .img-space {
-       margin-top: initial;
-   }
-
-    
- 
-
-
- } 
-
-
-/* xl */
- @media only screen and (min-width: 1200px) {
-    .proj-blurb {
-        width: 500px;
-    }
- 
-    .p-text {
-     width: 500px;
-    }
- 
- 
-    #upick-chat {
-        width: 350px;
-    }
-    #player-box,
-    .set-10,
-    .set-11 {
-        width: 200px;
-    }
-
-    .flow-pic
-
-{
-        width: 450px;
-       
-    }
-
-    #untrnd-s-a,
-    #spectrum-gif,
-    #figure-eye,
-    #pers-block,
-    #flow-chart {
-          width: 450px;
-         
-      }
- 
-    #upick-vimeo, #untrnd-vimeo {
-        width: 500px;
-    }
- 
-    /* .upick-mq {
-        text-align: center;
-        width: initial;
-         
-    }
- 
-    .img-space {
-        margin-top: initial;
-    }
-  */
- 
-
- }
- 
- 

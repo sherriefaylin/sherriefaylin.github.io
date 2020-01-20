@@ -1,7 +1,38 @@
 
+#about-me {
+    margin-bottom: -5px;
+    transform: scale(1, 0.7);
+    font-family: helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+
+    color: rgb(242, 249, 243);
+}
+
+
+.about-title {
+    margin-top: 300px;
+
+    text-align: center;
+color: white;
+font-size: 85.5px;
+font-family: helvetica, sans-serif;
+transform: scale(1, 0.7);
+text-align: center;
+font-weight: 800;
+-webkit-text-stroke: 1px black;
+}
+
 
 body {
     background-color: rgb(242, 249, 243);
+}
+
+
+.blob-fill {
+    width: 250px;
 }
 
 canvas { 
@@ -9,41 +40,51 @@ canvas {
 
 }
 
-.ugh-logo {
-    height: 150px;
-    text-align: center;
-    margin-left: 200px;
 
-     margin-top: 50px;
-     position: fixed;
-  
- }
+.cherry-valentine {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
- .mobile-nav {
-     display: none;
- }
- 
- #fix-logo {
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 18px;
-     /* z-index:-5 */
- }
- 
- #fix-gif, #reverse-gif {
- 
-     width:150px;
-     /* z-index:-5; */
- }
- .logo-nav {
+}
+
+
+#fix-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    /* z-index:-5 */
+}
+
+#fix-gif, #reverse-gif {
+
+    width:150px;
+    /* z-index:-5; */
+}
+
+.full-transcription {
+        
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 50px;
+     
+
+}
+
+.logo-nav {
     font-family: helvetica, sans-serif;
-    /* color: black; */
+    
     font-size: 20px;
     font-family: helvetica, sans-serif;
     transform: scale(1, 0.7);
     text-align: center;
     font-weight: 800;
-    /* transition: ease 1; */
+
+    margin-top: 20px; 
+
 }
 
 .links {
@@ -58,10 +99,6 @@ canvas {
 
 
 
-
-
-
-
 .photo-a {
     position: fixed;
     text-align: center;
@@ -70,42 +107,8 @@ canvas {
     
 }
 
-
-
-.cherry-valentine {
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.blob-fill {
-    width: 250px;
-}
-
-
-
-.about-title {
-    margin-top: 300px;
-
-    text-align: center;
-color: white;
-font-size: 85.5px;
-font-family: helvetica, sans-serif;
-transform: scale(1, 0.7);
-text-align: center;
-font-weight: 800;
--webkit-text-stroke: 1px black;
-/* text-shadow: black 0px 5px */
-}
-
-
-
-/* ------------------------------------ */
-/* testing new design */
-
 .subtitles {
-    /* padding-left: 200px;
-    padding-right: 200px; */
+
     width: 100%;
     text-align: center;
     color: rgb(255, 255, 0);
@@ -114,123 +117,26 @@ font-weight: 800;
     font-weight: 700;
     font-style: italic;
     font-size: 20px;
-    /* position: relative; */
+
     margin-top: 620px;
     position: fixed;
     
 }
 
-#blob-1 {
-    position: fixed;
-    margin-top: 50px;
-}
-
-
-#blob-2 {
-    position: fixed;
-    margin-left: 75px;
-    margin-top: 100px;
-}
-
-#blob-3 {
-    position: fixed;
-    margin-left:300px;
-
-}
-
-#blob-4 {
-    position: fixed;
-    margin-left: 150px;
-    margin-top: 200px;
-}
-
-#blob-5 {
-    position: fixed;
-  margin-left: 329px;
-}
-
-#blob-6 {
-    position: fixed;
-  margin-left: 50px;
-  margin-top: 150px;
-}
-
-#blob-7 {
-    position: fixed;
-  margin-left: 200px;
-  margin-top: 40px;
-}
-#blob-8 {
-    position: fixed;
-  margin-left: 270px;
-  margin-top: 70px;
-}
-#blob-9 {
-    position: fixed;
-  margin-left: 130px;
-  margin-top: 140px;
-}
-#blob-10 {
-    position: fixed;
-  margin-left: 30px;
-  margin-top: 100px;
-}
-#blob-11 {
-    position: fixed;
-  margin-left: 350px;
-  margin-top: 10px;
-}
-#blob-12 {
-    position: fixed;
-  margin-left: 10px;
-}
-#blob-13 {
-    position: fixed;
-  margin-left: 270px;
-  margin-top: 210px;
-}
-#blob-14 {
-    position: fixed;
-  margin-left: 100px;
-  margin-top: 175px;
-}
-#blob-15 {
-    position: fixed;
-  margin-left: 240px;
-  margin-top: 150px;
-}
-#blob-16 {
-    position: fixed;
-    margin-left: 200px;
-    margin-top: 100px;
-}
-
-
-
-.full-transcription {
-        
-        text-align: center; 
-        position: fixed;
-        margin-top: 250px;
-        margin-left: 300px;
-        padding: 15px;
-        
-
-}
 
 .trans-text {
     overflow: scroll;
     height: 350px;
-    margin-left: auto;
-    margin-right: auto;
+
     width: 500px;
-    background-color: rgba(255, 255, 255, 0.749);
-    border: 2px solid black;
-    border-radius: 5px;
+ 
+    border: 1.5px solid black;
+   
     padding: 10px;
 }
 
 #transcription {
+ 
     text-align: left;
     font-family: source-code-pro, monospace;
     font-size: 14px;
@@ -239,13 +145,11 @@ font-weight: 800;
 
 
 #transcribe {
-    position: fixed;
-    margin-top: -150px;
-    margin-left: 550px;
+  
     background-color: white;
     color: black;
     border: 2px solid  black;
-padding: 10px;
+    padding: 10px;
     font-family: europa, sans-serif;
     height: 120px;
     width: 120px;
@@ -260,606 +164,27 @@ padding: 10px;
     background-color: rgba(255, 68, 0, 0.818);
 }
 
-#about-me {
-    margin-bottom: -5px;
-    transform: scale(1, 0.7);
-    font-family: helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 32px;
-    text-align: left;
-    -webkit-text-stroke: 1px black;
 
-    color: white;
-}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 320px) {
-   
-     
-     #fix-logo {
-        transition: ease all .5s;
-
-         width:100px;
-    
-        margin-left: -27px;
-         margin-top: -10px;
-      
-     }
-   
- 
-    
-    .links {
-        color: black;
-    }
-    
-    .links:hover {
-        color: white;
-        -webkit-text-stroke: 1px black;
-        text-decoration: none;
-    }
-    
-    
-    
-    
-    .cherry-valentine {
-        width: 280px;
-        transition: ease all .5s;
-
-    
-    }
-
-    .blobs-div {
-        margin-top: -110px;
-        width: 320px;
-        transition: ease all .5s;
-
-    }
-
-    .blob-fill {
-        width:100px ;
-        transition: ease all .5s;
-
-    }
-
-    .subtitles {
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 310px;
-        text-align: center;
-        color: rgb(255, 255, 0);
-        -webkit-text-stroke: 0.5px black;
-        font-family: source-code-pro, monospace;
-        font-weight: 700;
-        font-style: italic;
-        font-size: 14px;
-        margin-top:380px;
-        position: fixed;
-    }
-
-    
-#transcribe {
-    margin-left: -100px;
-    height: 70px;
-    width: 70px;
-    font-size: 12px;
-    transition: ease all .5s;
-
-}
-
-.trans-text {
-    transition: ease all .5s;
-
-    overflow: scroll;
-    height: 350px;
-    margin-left: -308px;
-
-    width: 310px;
-    background-color: rgba(255, 255, 255, 0.749);
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-#about-me {
-    margin-left: -200px;
-    margin-top: -150px;
-}
-
-.mobile-nav {
-    display: block;
-    position: fixed;
- 
-}
-
-.logo-nav {
-    font-family: helvetica, sans-serif;
-    font-size: 18px;
-    font-family: helvetica, sans-serif;
-    transform: scale(1, 0.7);
+.ugh-logo {
+    height: 150px;
     text-align: center;
-    font-weight: 800;
-    margin-left: -58px;
-    margin-top: -10px;
-}
+    
+     position: fixed;
 
-
-#three-lines{
-    transition: ease all .5s;
-
-    margin-top: -200px;
-    margin-left: 145px;
-    width: 30px;
-}
-
-#close-mob-nav {
-    transition: ease all .5s;
-
-    position: fixed;
-    margin-left: 140px;
-    margin-top: -35px;
-    width: 30px;
-    /* margin-top:-50px; */
-}
-
-
-
-
-} 
-
-
-@media only screen and (min-width: 375px) {
-    #fix-logo {
-        width:120px;
-        transition: ease all .5s;
-
-       margin-left: -10px;
-        margin-top: -10px;
-     
-    }
-
-
+     position: absolute;
+     left: 50%;
+     top: 10%;
+     transform: translate(-50%, -50%)
   
-
-   
-   .links {
-       color: black;
-   }
-   
-   .links:hover {
-       color: white;
-       -webkit-text-stroke: 1px black;
-       text-decoration: none;
-   }
-   
-
-   .mobile-nav {
-    display: block;
-    position: fixed;
- 
-}
-
-.logo-nav {
-    font-family: helvetica, sans-serif;
-    font-size: 20px;
-    font-family: helvetica, sans-serif;
-    transform: scale(1, 0.7);
-    text-align: center;
-    font-weight: 800;
-    margin-left: -38px;
-    margin-top: -10px;
-}
-
-
-#three-lines{
-    transition: ease all .5s;
-
-    margin-top: -225px;
-    margin-left: 185px;
-    width: 40px;
-    transition: ease all .5s;
-
-}
-
-#close-mob-nav {
-    transition: ease all .5s;
-    transition: ease all .5s;
-
-    position: fixed;
-    margin-left: 185px;
-    margin-top: -35px;
-    width: 40px;
-    /* margin-top:-50px; */
-}
-   
-   
-    .cherry-valentine {
-        width: 370px;
-        transition: ease all .5s;
-
-        transition: ease all .5s;
-
-    
-    }
-    .blob-fill {
-        width:150px;
-        transition: ease all .5s;
-
-    }
-
-    .subtitles {
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 375px;
-        text-align: center;
-        color: rgb(255, 255, 0);
-        -webkit-text-stroke: 0.5px black;
-        font-family: source-code-pro, monospace;
-        font-weight: 700;
-        font-style: italic;
-        font-size: 16px;
-        margin-top: 550px;
-        position: fixed;
-    }
-
-    #transcribe {
-    position: fixed;
-    margin-top: -80px;
-    margin-left: -80px;
-    background-color: white;
-    color: black;
-    border: 2px solid  black;
-    padding: 10px;
-    font-family: europa, sans-serif;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    font-size: 10px;
-    transition: ease all .5s;
-
-    transition-duration: 0.15s;
-    }
+ }
 
 
 
-.trans-text {
-    overflow: scroll;
-    height: 350px;
-    margin-left: -308px;
-
-    width: 360px;
-    height: 400px;
-    background-color: rgba(255, 255, 255, 0.749);
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    transition: ease all .5s;
-
-}
-
-#about-me {
-    margin-left: -200px;
-    margin-top: 5px;
-}
-
-
-  } 
-
-  @media only screen and (min-width: 768px) {
-
-    #fix-logo {
-       transition: ease all .5s;
-   
-           width:150px;
-      
-          margin-left: -200px;
-           margin-top: -0px;
-        
-       }
-   
-      
-      .links {
-          
-          color: black;
-      }
-      
-      .links:hover {
-          color: white;
-          -webkit-text-stroke: 1px black;
-          text-decoration: none;
-      }
-      
-   
-      .mobile-nav {
-          
-       display: block;
-       position: fixed;
-    
-   }
-   
-   .logo-nav {
-       font-family: helvetica, sans-serif;
-       font-size: 20px;
-       font-family: helvetica, sans-serif;
-       transform: scale(1, 0.7);
-       text-align: center;
-       font-weight: 800;
-       margin-left: -190px;
-       margin-top: -5px;
-   }
-   
-   
-   #three-lines{
-       transition: ease all .5s;
-   
-       margin-top: -255px;
-       margin-left: 555px;
-           width: 50px;
-   }
-   
-   #close-mob-nav {
-       transition: ease all .5s;
-   
-       position: fixed;
-       margin-left: 555px;
-       margin-top: -25px;
-       width: 50px;
-       /* margin-top:-50px; */
-   }
-   
-   .subtitles {
-       font-size: 20px;
-       margin-top: 700px;
-      margin-left: 200px;
-
-       
-   
-   }
-   
-   #transcribe {
-       position: fixed;
-       margin-top: -130px;
-       margin-left: 150px;
-       background-color: white;
-       color: black;
-       border: 2px solid  black;
-       padding: 10px;
-       font-family: europa, sans-serif;
-       height: 120px;
-       width: 120px;
-       border-radius: 50%;
-       transition: ease all .5s;
-   
-       transition-duration: 0.15s;
-   }
-   
-   .trans-text {
-       transition: ease all .5s;
-   
-       overflow: scroll;
-       height: 350px;
-       margin-left: -180px;
-   
-       width: 500px;
-       height: 400px;
-       background-color: rgba(255, 255, 255, 0.749);
-       border: 2px solid black;
-       border-radius: 5px;
-       padding: 10px;
-   }
-   
-   #about-me {
-       margin-top: 150px;
-       margin-left: 20px;
-   }
-   
-   
-      
-   }
 
 
 
-   @media only screen and (min-width: 992px) {
-    #fix-logo {
-        transition: ease all .5s;
-    
-            width:150px;
-       
-           margin-left: -200px;
-            margin-top: -0px;
-         
-        }
-    
-       
-       .links {
-           
-           color: black;
-       }
-       
-       .links:hover {
-           color: white;
-           -webkit-text-stroke: 1px black;
-           text-decoration: none;
-       }
-       
-       .mobile-nav {
-        display: none;
-     
-    }
-    
-    .cherry-valentine {
-        width: 450px;
-    }
-    
- 
-    
-    .logo-nav {
-        font-family: helvetica, sans-serif;
-        font-size: 20px;
-        font-family: helvetica, sans-serif;
-        transform: scale(1, 0.7);
-        text-align: center;
-        font-weight: 800;
-        margin-left: -190px;
-        margin-top: -5px;
-    }
-    
-    
 
-    .subtitles {
-        font-size: 20px;
-        margin-top: 700px;
-        width: 500px;
-        margin-left: 265px;
- 
-        
-    
-    }
-    
-    #transcribe {
-        position: fixed;
-        margin-top: -130px;
-        margin-left: 150px;
-        background-color: white;
-        color: black;
-        border: 2px solid  black;
-        padding: 10px;
-        font-family: europa, sans-serif;
-        height: 120px;
-        width: 120px;
-        border-radius: 50%;
-        transition: ease all .5s;
-    
-        transition-duration: 0.15s;
-    }
-    
-    .trans-text {
-        transition: ease all .5s;
-    
-        overflow: scroll;
-        height: 350px;
-        margin-left: -40px;
-    
-        width: 500px;
-        height: 500px;
-        background-color: rgba(255, 255, 255, 0.749);
-        border: 2px solid black;
-        border-radius: 5px;
-        padding: 10px;
-    }
-    
-    #about-me {
-        margin-top: 150px;
-        margin-left: 145px;
-    }
-    
-    
-       
-    }
- 
 
-    @media only screen and (min-width: 1200px) {
-        #fix-logo {
-            transition: ease all .5s;
-        
-                width:150px;
-           
-               margin-left: -200px;
-                margin-top: -0px;
-             
-            }
-        
-           
-           .links {
-               
-               color: black;
-           }
-           
-           .links:hover {
-               color: white;
-               -webkit-text-stroke: 1px black;
-               text-decoration: none;
-           }
-           
-           .mobile-nav {
-            display: none;
-         
-        }
-        
-        .cherry-valentine {
-            width: 450px;
-        }
-        
-     
-        
-        .logo-nav {
-            font-family: helvetica, sans-serif;
-            font-size: 20px;
-            font-family: helvetica, sans-serif;
-            transform: scale(1, 0.7);
-            text-align: center;
-            font-weight: 800;
-            margin-left: -190px;
-            margin-top: -5px;
-        }
-        
-        
-    
-        .subtitles {
-            font-size: 20px;
-            margin-top: 570px;
-            width: 650px;
-            margin-left: 370px;
-            
-     
-            
-        
-        }
-        
-        #transcribe {
-            position: fixed;
-            margin-top: -130px;
-            margin-left: 150px;
-            background-color: white;
-            color: black;
-            border: 2px solid  black;
-            padding: 10px;
-            font-family: europa, sans-serif;
-            height: 120px;
-            width: 120px;
-            border-radius: 50%;
-            transition: ease all .5s;
-        
-            transition-duration: 0.15s;
-        }
-        
-        .trans-text {
-            transition: ease all .5s;
-        
-            overflow: scroll;
-            height: 350px;
-            margin-left: 150px;
-        
-            width: 500px;
-            height: 340px;
-            background-color: rgba(255, 255, 255, 0.749);
-            border: 2px solid black;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        
-        #about-me {
-            margin-top: 50px;
-            margin-left: 325px;
-        }
-        
-        
-           
-        }
+
+
 
