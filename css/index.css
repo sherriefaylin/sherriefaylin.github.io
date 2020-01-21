@@ -9,35 +9,30 @@ canvas {
 
 }
 
-.ugh-logo {
-    text-align: center;
-    margin-left: 120px;
-     margin-top: 50px;
-     position: fixed;
-  
- }
- 
- #fix-logo {
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 18px;
-     /* z-index:-5 */
- }
- 
- #fix-gif, #reverse-gif {
- 
-     width:150px;
-     /* z-index:-5; */
- }
- .logo-nav {
+
+#fix-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    /* z-index:-5 */
+}
+#fix-gif, #reverse-gif {
+
+    width:150px;
+    /* z-index:-5; */
+}
+
+.logo-nav {
     font-family: helvetica, sans-serif;
-    /* color: black; */
+    
     font-size: 20px;
     font-family: helvetica, sans-serif;
     transform: scale(1, 0.7);
     text-align: center;
     font-weight: 800;
-    /* transition: ease 1; */
+
+    margin-top: 20px; 
+
 }
 
 .links {
@@ -49,6 +44,19 @@ canvas {
     -webkit-text-stroke: 1px black;
     text-decoration: none;
 }
+.ugh-logo {
+    height: 150px;
+    text-align: center;
+    
+     position: fixed;
+
+     position: absolute;
+     left: 50%;
+     top: 10%;
+     transform: translate(-50%, -50%)
+  
+ }
+
  
 
 .each-proj {
@@ -140,7 +148,7 @@ canvas {
 
 
 .page-head {
-       margin-top: 300px;
+       margin-top: 230px;
        transition: all 0.2s ease-in-out;
 
     text-align: center;    
@@ -164,8 +172,9 @@ canvas {
 
 
 .page-title { 
+    text-decoration: underline;
     font-family: helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 800;
     color: white;
 -webkit-text-stroke: 1px  black
@@ -178,10 +187,19 @@ canvas {
 
 .proj-block {
     padding: 20px;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+
+#aa-cap, #pos-cap, #rub-cap, #untrnd-cap, #upick-cap {
+    position: absolute;
 }
 
 
-  
+
+
+
+
 
 
 
