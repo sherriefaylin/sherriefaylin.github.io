@@ -142,7 +142,6 @@ canvas {
 
 
 .subtitle {
-    -webkit-text-stroke: 1px #e43b25;
     color: rgb(242, 249, 243);
     font-size: 32px;
     font-family: helvetica, sans-serif;
@@ -286,3 +285,19 @@ iframe {
     transition-duration: 0.5s;
 }
   
+
+.sub-rub {
+    -webkit-text-stroke: 1px #44b649;
+}
+.sub-untrnd {
+    -webkit-text-stroke: 1px #f04d24;
+}
+.sub-aa {
+    -webkit-text-stroke: 1px #ffb2a6;
+}
+.sub-pos {
+    -webkit-text-stroke: 1px #008083;
+}
+.sub-upick {
+    -webkit-text-stroke: 1px #e43b25;
+}
