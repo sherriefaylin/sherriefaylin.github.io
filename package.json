@@ -1,0 +1,25 @@
+{
+  "name": "sherriefaylin.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherriefaylin/sherriefaylin.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherriefaylin/sherriefaylin.github.io/issues"
+  },
+  "homepage": "https://github.com/sherriefaylin/sherriefaylin.github.io#readme",
+  "dependencies": {
+    "sass": "^1.25.0"
+  }
+}

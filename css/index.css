@@ -150,15 +150,22 @@ canvas {
 .page-head {
        margin-top: 230px;
        transition: all 0.2s ease-in-out;
-
-    text-align: center;    
-    transform: scale(1, 0.7);
+       transform: scale(1, 0.7);
+        padding-left: -2px;
+        padding-right: -2px;
+        text-align: center;    
 }
 
 
 .uh-what {
     color: rgba(255, 255, 255, 0);
 }
+
+
+#pixelate1, #pixelate2,#pixelate3, #pixelate4,#pixelate5, #pixelate6, #pixelate7, #pixelate8 {
+    margin-left: -7px;
+}
+
 
 
 
@@ -172,7 +179,7 @@ canvas {
 
 
 .page-title { 
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-family: helvetica, sans-serif;
     font-size: 36px;
     font-weight: 800;
@@ -191,9 +198,10 @@ canvas {
     transition-duration: 0.5s;
 }
 
-#aa-cap, #pos-cap, #rub-cap, #untrnd-cap, #upick-cap {
+#aa-cap, #pos-cap, #rub-cap, #untrnd-cap, #upick-cap, #fort-cap {
     position: absolute;
 }
+
 
 
 

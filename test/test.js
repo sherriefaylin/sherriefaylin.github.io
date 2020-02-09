@@ -1,11 +1,9 @@
-const svgPath = document.querySelectorAll('.path');
+var text = "I wanna Wowow!";
 
-const svgText = anime({
-  targets: svgPath,
-  loop: true,
-  direction: 'alternate',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 700,
-  delay: (el, i) => { return i * 500 }
-});
+for(var i in text) { 
+  if(text[i] === " ") {
+    $(".wavetext").append( $("<span>").html("&nbsp;") ); 
+  } else {  
+    $(".wavetext").append( $("<span>").text(text[i]) ); 
+  }
+}

@@ -1,10 +1,12 @@
 
 var executed;
-var reset;
-
-$(document).ready(function () {
-  var executed;
 var reset ;
+
+var nplb = ' "NO PIXEL LEFT BEHIND" '
+
+
+
+
 $(document).ready(function () {
 
 
@@ -71,13 +73,18 @@ $(".logo-nav").mouseleave(function() {
   $(".logo-nav").hide();
 })
 
-});
 
 
 
 
 
 });
+
+
+
+
+
+
 
 
 
