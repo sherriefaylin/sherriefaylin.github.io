@@ -1,6 +1,5 @@
 body {
-    /* background: color 248; */
-    background-color: rgb(242, 249, 243);
+    /* background-color: rgb(242, 249, 243); */
 
 }
 
@@ -55,10 +54,6 @@ body {
 
 
 
-.proj-head {
-    text-align: center;
-}
-
 .flow-bar {
     text-align: center;
 
@@ -90,14 +85,12 @@ canvas {
 
 .proj-title {
     margin-top: 250px;
-    font-family: helvetica, sans-serif;
-    transform: scale(1, 0.7);
-    text-align: center;
-    text-decoration: underline;
-    font-size: 36px;
-    font-weight: 800;
-    color: white;
-    -webkit-text-stroke: 1px  black
+    font-size: 100px;
+    /* transform: scale(1,0.8); */
+    color: black;
+    font-family: soleil,sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .proj-blurb {
@@ -105,8 +98,13 @@ canvas {
     margin-right: auto;
     width: 500px;
     margin-bottom: 100px;
-    font-family: 'Courier New', Courier, monospace, serif;
-    font-weight: 400;
+
+    font-family: aktiv-grotesk-extended, sans-serif;
+
+    font-weight: 300;
+    
+    font-style: normal;    
+
     transition: ease;
 }
 
@@ -144,7 +142,7 @@ canvas {
 .subtitle {
     color: rgb(242, 249, 243);
     font-size: 32px;
-    font-family: helvetica, sans-serif;
+    /* font-family: helvetica, sans-serif; */
     transform: scale(1, 0.7);
     text-align: center;
     font-weight: 800;

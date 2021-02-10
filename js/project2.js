@@ -67,16 +67,91 @@ $(document).ready(function () {
         }, 1200)
 
 
-        $("#pixelate1").mouseenter(function() {
+        $(".pix1").mouseenter(function() {
             $("#pixelate1").hide();
             $("#c1").show()
+
+        
         })
-        $("#c1").mouseleave(function() {
+        $(".pix1").mouseleave(function() {
             $("#c1").hide();
             $("#pixelate1").show();
         })
 
+        $(".pix2").mouseenter(function() {
+            $("#pixelate2").hide();
+            $("#m1").show()
 
+        
+        })
+        $(".pix2").mouseleave(function() {
+            $("#m1").hide();
+            $("#pixelate2").show();
+        })
+
+        $(".pix3").mouseenter(function() {
+            $("#pixelate3").hide();
+            $("#y1").show()
+
+        
+        })
+        $(".pix3").mouseleave(function() {
+            $("#y1").hide();
+            $("#pixelate3").show();
+        })
+      
+        $(".pix4").mouseenter(function() {
+            $("#pixelate4").hide();
+            $("#k1").show()
+
+        
+        })
+        $(".pix4").mouseleave(function() {
+            $("#k1").hide();
+            $("#pixelate4").show();
+        })
+
+        $(".pix5").mouseenter(function() {
+            $("#pixelate5").hide();
+            $("#c2").show()
+
+        
+        })
+        $(".pix5").mouseleave(function() {
+            $("#c2").hide();
+            $("#pixelate5").show();
+        })
+
+        $(".pix6").mouseenter(function() {
+            $("#pixelate6").hide();
+            $("#m2").show()
+
+        
+        })
+        $(".pix6").mouseleave(function() {
+            $("#m2").hide();
+            $("#pixelate6").show();
+        })
+        $(".pix7").mouseenter(function() {
+            $("#pixelate7").hide();
+            $("#y2").show()
+
+        
+        })
+        $(".pix7").mouseleave(function() {
+            $("#y2").hide();
+            $("#pixelate7").show();
+        })
+        $(".pix8").mouseenter(function() {
+            $("#pixelate8").hide();
+            $("#k2").show()
+
+        
+        })
+        $(".pix8").mouseleave(function() {
+            $("#k2").hide();
+            $("#pixelate8").show();
+        })
 
 
 
